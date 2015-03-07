@@ -1,0 +1,9 @@
+%header
+  %section.topBar
+    .logoBar
+      %a.logo
+        %h1 William Anderson
+    %a.burger
+  %nav
+    - ["About William", "Blog", "Publications", "Personal Projects", "Communities &amp; Groups", "Attended Events", "Illustrations"].each do |sect|
+      %a{href: "#"+sect.gsub(/(\s+|&amp;)/, "")}= sect
