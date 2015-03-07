@@ -1,0 +1,48 @@
+/*
+ *
+ *
+ *
+ *
+ *
+ */
+header.pageHeader
+  +block(100%, 70px)
+  float: left
+
+  // Always present top navigation
+  section.topBar
+    +block(100%, 70px)
+    float: left
+    background: $pattern
+    position: relative
+    z-index: 999 - index($z, topBar)
+    .logoBar
+      @extend %shadow
+      +block(60%, 70px)
+      +calc(width, "100% - 100px")
+      float: left
+      background: white
+      a.logo
+        display: block
+        float: left
+        margin: 5px 20px
+        h1
+          display: none
+
+    a.burger
+      @extend %shadow
+      +block(90px, 70px)
+      position: absolute
+      top: 0px
+      right: 0px
+      background: white
+
+  // Drop Down Navigation
+  nav
+    @extend %shadow
+    +block(210px, auto)
+    position: absolute
+    top: 70px
+    right: 0px
+    background: white
+    a
