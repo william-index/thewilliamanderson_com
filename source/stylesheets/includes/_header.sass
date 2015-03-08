@@ -1,9 +1,8 @@
 /*
- *
- *
- *
- *
- *
+ *  Styling for the sticky top header and
+ *    dropdown menu for the
+ *  This is sized with calc and fallsback to
+ *    something relatively safe for older browsers with A%s
  */
 header.pageHeader
   +block(100%, 70px)
@@ -46,3 +45,34 @@ header.pageHeader
     right: 0px
     background: white
     a
+
+
+/*
+ *  Styling for social channels
+ *  Some of these are manualy tweaked in order
+ *    to ensure optical alignment given the different
+ *    proportions of the logos
+ */
+nav.social_channels
+  +block(100%,55px)
+  float: left
+  background: $lightGrey
+  .wrap
+    +block(200px,30px)
+    margin: 14px auto 0px auto
+    a
+      +block(30px, 30px)
+      float: left
+      margin: 0px 10px
+      svg
+        +block(100%, 100%)
+        fill: $darkGrey
+      &:hover
+        svg
+          fill: $red
+      &.twitter
+        svg
+          margin: 6px 0px 0px 4px
+      &.codepen
+        svg
+          margin-top: 1px
