@@ -11,3 +11,35 @@ $z: topBar
 @import "includes/_header"
 
 // Core styles
+section.box
+  @extend %shadow
+  +block(100%, auto)
+  max-width: 600px
+  margin: 0px auto
+  clear: both
+  background: white
+
+section.content
+  %content_block
+    +block(auto, auto)
+    font-family: $sans
+    padding: 12px 20px
+    +font(12,17)
+  h1
+    @extend %content_block
+    font-weight: $light
+    text-transform: uppercase
+    color: $red
+    background: $nearWhite
+  h2
+    @extend %content_block
+    +font(10,17)
+    font-weight: $normal
+    color: $darkGrey2
+    text-transform: none
+    padding: 6px 20px 0px 20px
+  p
+    @extend %content_block
+    padding: 9px 20px
+    color: $darkGrey
+    max-width: 70%
