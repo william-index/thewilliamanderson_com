@@ -1,0 +1,13 @@
+// Homepage Jobs Styling
+section.job
+  +block(auto, auto)
+  clear: both
+  margin-top: 10px
+  &+section.job
+    margin-top: 0px
+    padding-bottom: 10px
+  img
+    +block(36px,36px)
+    border: 2px solid $darkGrey
+    float: left
+    margin: 6px 15px 0px 20px

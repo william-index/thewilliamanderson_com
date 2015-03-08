@@ -7,9 +7,6 @@
 // used for keeping z-index in order, calculated in sheets as 999-index
 $z: topBar
 
-// modules
-@import "includes/_header"
-
 // Core styles
 section.box
   @extend %shadow
@@ -19,6 +16,8 @@ section.box
   clear: both
   background: white
 
+
+// GENERAL CONTENT STYLING
 section.content
   %content_block
     +block(auto, auto)
@@ -31,6 +30,7 @@ section.content
     text-transform: uppercase
     color: $red
     background: $nearWhite
+    letter-spacing: 1px
   h2
     @extend %content_block
     +font(10,17)
@@ -43,3 +43,12 @@ section.content
     padding: 9px 20px
     color: $darkGrey
     max-width: 70%
+    a
+      color: $darkGrey
+      text-decoration: underline
+      &:hover
+        color: $red
+
+// modules
+@import "includes/_header"
+@import "includes/_aboutWilliam"
