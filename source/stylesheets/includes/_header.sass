@@ -1,0 +1,132 @@
+/*
+ *  Styling for the sticky top header and
+ *    dropdown menu for the
+ *  This is sized with calc and fallsback to
+ *    something relatively safe for older browsers with A%s
+ */
+header.pageHeader
+  +block(100%, 70px)
+  float: left
+  position: fixed
+  top: 0px
+  left: 0px
+
+  // Always present top navigation
+  section.topBar
+    +block(100%, 70px)
+    float: left
+    background: $pattern
+    position: relative
+    z-index: 999 - index($z, topBar)
+    .logoBar
+      @extend %shadow
+      +block(60%, 70px)
+      +calc(width, "100% - 100px")
+      float: left
+      background: white
+      a.logo
+        display: block
+        float: left
+        margin: 5px 20px
+        h1
+          display: none
+
+    // Hamburger icon used for opening menu
+    a.burger
+      @extend %shadow
+      +block(90px, 70px)
+      position: absolute
+      top: 0px
+      right: 0px
+      background: white
+      div
+        +block(31px,6px)
+        background: $red
+        margin: 15px auto 8px auto
+        +transition(transform 0.4s, width 0.4s)
+        &+div
+          margin-top: 0px
+      // hovers
+      &:hover div
+        background: $darkGrey
+      // This class transforms the burger into a close button
+      &.ex
+        div:nth-child(1)
+          +transform(translateY(14px) rotate(45deg))
+          width: 40px
+        div:nth-child(2)
+          width: 0px
+        div:nth-child(3)
+          +transform(translateY(-14px) rotate(-45deg))
+          width: 40px
+
+  // Drop Down Navigation
+  nav
+    @extend %shadow
+    +block(210px, auto)
+    max-height: 0px
+    position: absolute
+    top: 70px
+    right: 0px
+    background: white
+    overflow: hidden
+    +transition(max-height 0.6s)
+    &.open
+      max-height: 400px
+    a
+      +block(180px,40px)
+      +font(14, 40)
+      font-family: $sans
+      font-weight: $light
+      color: $darkGrey2
+      border-bottom: 1px solid $grey
+      margin: 0px auto
+      text-align: center
+      &:hover
+        background: $lightGrey
+        color: $red
+      &:first-child
+        margin-top: 20px
+      &:last-child
+        margin-bottom: 20px
+        border: none
+      // temporary to show that these arent workign yet
+      &+a
+        opacity: 0.4
+        cursor: default
+        &:hover
+          background: white
+          color: $darkGrey2
+
+
+
+/*
+ *  Styling for social channels
+ *  Some of these are manualy tweaked in order
+ *    to ensure optical alignment given the different
+ *    proportions of the logos
+ */
+nav.social_channels
+  +block(100%,55px)
+  float: left
+  background: $lightGrey
+  .wrap
+    +block(200px,30px)
+    margin: 14px auto 0px auto
+    a
+      +block(30px, 30px)
+      float: left
+      margin: 0px 10px
+      svg
+        +block(100%, 100%)
+        fill: $darkGrey
+        +transition(fill 0.4s)
+      &:hover
+        svg
+          fill: $red
+      &.twitter
+        svg
+          margin: 6px 0px 0px 4px
+      &.codepen
+        svg
+          margin-top: 1px
