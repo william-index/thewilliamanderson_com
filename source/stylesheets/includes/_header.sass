@@ -28,6 +28,7 @@ header.pageHeader
         h1
           display: none
 
+    // Hamburger icon used for opening menu
     a.burger
       @extend %shadow
       +block(90px, 70px)
@@ -35,6 +36,26 @@ header.pageHeader
       top: 0px
       right: 0px
       background: white
+      div
+        +block(31px,6px)
+        background: $red
+        margin: 15px auto 8px auto
+        +transition(transform 0.4s, width 0.4s)
+        &+div
+          margin-top: 0px
+      // hovers
+      &:hover div
+        background: $darkGrey
+      // This class transforms the burger into a close button
+      &.ex
+        div:nth-child(1)
+          +transform(translateY(14px) rotate(45deg))
+          width: 40px
+        div:nth-child(2)
+          width: 0px
+        div:nth-child(3)
+          +transform(translateY(-14px) rotate(-45deg))
+          width: 40px
 
   // Drop Down Navigation
   nav
