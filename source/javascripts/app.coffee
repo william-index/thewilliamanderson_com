@@ -1,20 +1,45 @@
+###*
+* Main Scripts for thewilliamanderson.com
+*
+* @author @william-index
+*
+*###
+
 $(document).ready ->
 
-  # Open and Close control for main menu
-  #   Styling is changed in css
+  # -----------------------
+  # Event Listeners
+  # -----------------------------------
+
+  # Main Menu
+  # -----------------
   $("a.burger").click (e) ->
     e.preventDefault()
-    if $(this).hasClass("ex")
-      $(this).removeClass "ex"
-      $("nav.mainNav").removeClass "open"
-    else
-      $(this).addClass "ex"
-      $("nav.mainNav").addClass "open"
+    toggle_menu()
 
-
-  # Scrolls to a section from the main menu
-  #   Offsets are in place from the sticky nav
   $("nav.mainNav a").click (e) ->
     e.preventDefault()
-    offset = $($(this).attr("href")).offset().top - 90
+    scroll $(this).attr("href")
+
+
+  ###*
+  * Toggles the state of the burger Icon and the
+  *   Main menu. Animation is handled via css
+  *
+  * @method toggle_menu
+  *###
+  toggle_menu = ->
+    $("a.burger").toggleClass "ex"
+    $("nav.mainNav").toggleClass "open"
+
+
+  ###*
+  * Scrolls down/up the page to the specified selector
+  *   also notes the offset of the main sticky menu with 20px grace
+  *
+  * @method scroll
+  * @param {string} selector
+  *###
+  scroll = (selector) ->
+    offset = $(selector).offset().top - $(".topBar").height()-20
     $("html, body").stop().clearQueue().animate({scrollTop : offset}, 400)
