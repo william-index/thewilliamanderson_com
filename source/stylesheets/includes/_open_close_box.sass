@@ -1,0 +1,52 @@
+$plusSize: 20px
+$plusThickness: 4px
+/*
+  The open close box defaults to being closed, and uses
+    the h1.band as the control for opening and closing it.
+    this is the styling for the generic box container and functionality
+
+section.open_close_box
+  +block(80%, auto)
+  max-height: 40px
+  position: relative
+  overflow: hidden
+  +transition(max-height 0.4s ease-out)
+  margin-bottom: 25px
+
+  // h1 band needs a hover state in this instance to clue interaction
+  .band
+    cursor: pointer
+    &:hover
+      background: darken($nearWhite, 5%)
+
+  /*
+    The plus_minus sign is created from a container with 2 divs inside of it
+      this ensures that it works cross browser unlike SVG, and reduces the need
+      for images
+  .plus_minus
+    +block($plusSize, $plusSize)
+    position: absolute
+    top: 8px
+    right: 8px
+    div
+      position: absolute
+      +block($plusSize, $plusThickness)
+      background: $darkGrey2
+      top: ($plusSize/2) - ($plusThickness / 2)
+      left: 0px
+      +transition(height 0.4s, top 0.4s)
+      &+div
+        +block($plusThickness, $plusSize)
+        top: 0px
+        left: ($plusSize/2) - ($plusThickness / 2)
+
+  /*
+    The open state has an assumed maximum height for the opening sections
+      that controls the animation for revealing the content AND the plus/minus
+      sign transition
+  &.open
+    max-height: 1000px
+    +transition(max-height 0.4s ease-in)
+    div+div
+      height: 0px
+      top: $plusSize/2

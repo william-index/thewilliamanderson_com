@@ -3,7 +3,7 @@
 
   -# Tools
   %section.about#tools
-    %h1 Languages, Tools, & Methods:
+    %h1.band Languages, Tools, & Methods:
     %section.tools
       %h2 Everyday use
       %p= current_page.data.tools.everyday
@@ -25,14 +25,14 @@
   - authors = @doc.xpath("//review//book//author//name//text()")
   - links = @doc.css("book > id")
   %section.about#books
-    %h1 Currently Reading:
+    %h1.band Currently Reading:
     %section.books
       - books.each_with_index do |title, i|
         %a.book{href: "https://www.goodreads.com/book/show/#{links[i].text}", target: "_blank"}
           = "#{title} by #{authors[i]}"
 
   %section.about#occupation
-    %h1 Currently Working at:
+    %h1.band Currently Working at:
     %section.job
       %img{src: "images/logos/addison_logo.png"}
       %p

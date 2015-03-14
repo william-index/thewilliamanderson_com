@@ -7,16 +7,7 @@ section#writings
 // High Level Styles
 #recent_posts
   margin-bottom: 20px
-  h1.huge
-    @extend %content_block
-    font-weight: $light
-    text-transform: uppercase
-    color: $red
-    background: $nearWhite
-    letter-spacing: 1px
-    +font(20,24)
-    text-align: center
-    background: none
+  
 
 // Excerpt Styling
 section#writings .excerpt
@@ -26,6 +17,9 @@ section#writings .excerpt
   margin: 12px 0px
   position: relative
   h1
+    display: block
+    float: left
+    clear: both
     font-family: $sans
     font-weight: $light
     padding: 5px 20px
@@ -37,9 +31,11 @@ section#writings .excerpt
       color: $darkGrey2
   p
     @extend %content_block
+    float: left
+    clear: both
     padding: 0px 20px
     max-width: 70%
-  a
+  a h1
     color: $red
     &:hover
       text-decoration: underline

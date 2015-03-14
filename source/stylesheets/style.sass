@@ -42,28 +42,34 @@ a.box_link
 
 a.arrow_link
   @extend a.box_link
-  div
-    border-radius: $depth
-    position: absolute
-    background: $red
-  .arTop, .arBot
-    +block(40%, $depth+1)
-    left: 20px
-  .arTop
-    @include transform(rotate(45deg))
-    top: 8px
-  .arBot
-    @include transform(rotate(-45deg))
-    bottom: 8px
-  .arStem
-    +block(70%, $depth+1)
-    top: 50%
-    left: 15%
-    margin-top: ($depth/2) * -1
+  svg
+    +block(100%,100%)
+    margin-top: 5px
+    margin-left: 9px
 
+// Section header styling
+h1.band
+  @extend %content_block
+  font-weight: $light
+  text-transform: uppercase
+  color: $red
+  background: $nearWhite
+  letter-spacing: 1px
+
+h1.huge
+  @extend %content_block
+  font-weight: $light
+  text-transform: uppercase
+  color: $red
+  background: $nearWhite
+  letter-spacing: 1px
+  +font(20,24)
+  text-align: center
+  background: none
 
 
 // modules
 @import "includes/_header"
 @import "includes/_aboutWilliam"
 @import "includes/_writings"
+@import "includes/_open_close_box"
