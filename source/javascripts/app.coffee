@@ -22,6 +22,14 @@ $(document).ready ->
     scroll $(this).attr("href")
 
 
+
+
+
+  # -----------------------
+  # Methods
+  # -----------------------------------
+
+
   ###*
   * Toggles the state of the burger Icon and the
   *   Main menu. Animation is handled via css

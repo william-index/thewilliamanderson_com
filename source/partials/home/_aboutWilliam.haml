@@ -6,24 +6,31 @@
     %h1 Languages, Tools, & Methods:
     %section.tools
       %h2 Everyday use
-      %p Middleman, SaSS, haml, Coffeescript, PHP, MySQL, Wordpress, Git, Objective-C, Swift
+      %p= current_page.data.tools.everyday
     %section.tools
       %h2 Learning/Exploring
-      %p Ruby, TDD, Kanban, OWASP practices
+      %p= current_page.data.tools.learning
     %section.tools
       %h2 In the Past (out of practice)
-      %p Pascal, 6502 Assembly, Actionscript 3
+      %p= current_page.data.tools.past
 
-  -# Currently Reading/Books @TODO integrate with goodreads API
+  -# Yes, this key is here and viisble, but no secret for YOU!
+  -# Its pretty benighn and non-abusable, but let me know a better place to put this
+
+  -# Dynamically pulls currently reading books on Build
+  - grKey = "LaJRAZKgpbdUzXdQl9Y8g"
+  - goodreads = "https://www.goodreads.com/review/list/35020173.xml?key=#{grKey}&v=2&shelf=currently-reading"
+  - @doc = Nokogiri::HTML(open(goodreads))
+  - books = @doc.xpath("//review//book//title//text()")
+  - authors = @doc.xpath("//review//book//author//name//text()")
+  - links = @doc.css("book > id")
   %section.about#books
     %h1 Currently Reading:
     %section.books
+    - books.each_with_index do |title, i|
       %p
-        %a{href: "https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained", target: "_blank"}
-          Extreme Programming Explained: Embrace Change (The XP Series) by Kent Beck
-      %p
-        %a{href: "https://www.goodreads.com/book/show/22328.Neuromancer", target: "_blank"}
-          Neuromancer (Sprawl #1) by William Gibson
+        %a{href: "https://www.goodreads.com/book/show/#{links[i].text}", target: "_blank"}
+          = "#{title} by #{authors[i]}"
 
   %section.about#occupation
     %h1 Currently Working at:

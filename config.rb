@@ -67,9 +67,13 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 
+
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+# syntax highlighting
+activate :syntax, :line_numbers => true
 
 activate :blog do |blog|
   blog.layout = "blog_post"
