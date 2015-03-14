@@ -1,15 +1,15 @@
 %section#writings
-  %section#recent_posts
+  %section.content.box#recent_posts
     %h1.huge Recent posts
     %div
       -# Lists out the 3 most recent blog excerpts
       - blog.articles[0...3].each do |article|
-        %article.blog_excerpt.content
+        %article.excerpt
           %a{href: article.url}
             %h1.title
               = article.title
               %time= article.date.strftime('%b %e, %Y')
-          %p.excerpt= article.data.excerpt
+          %p= article.data.excerpt
           %a{href: article.url}
             .arTop
             .arBot

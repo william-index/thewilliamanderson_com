@@ -12,21 +12,23 @@ body
   padding-top: 70px
 
 section.box
-  @extend %shadow
   +block(100%, auto)
   max-width: 600px
   margin: 0px auto
   clear: both
   background: white
+  &.shadow
+    @extend %shadow
 
 
 // GENERAL CONTENT STYLING
+%content_block
+  +block(auto, auto)
+  font-family: $sans
+  padding: 12px 20px
+  +font(12,17)
+
 .content
-  %content_block
-    +block(auto, auto)
-    font-family: $sans
-    padding: 12px 20px
-    +font(12,17)
   h1
     @extend %content_block
     font-weight: $light
@@ -34,6 +36,10 @@ section.box
     color: $red
     background: $nearWhite
     letter-spacing: 1px
+    &.huge
+      +font(20,24)
+      text-align: center
+      background: none
   h2
     @extend %content_block
     +font(10,17)
@@ -52,6 +58,31 @@ section.box
       &:hover
         color: $red
 
+//  Adjustments for excerpt style general content
+.excerpt
+  display: block
+  float: left
+  width: 100%
+  margin: 12px 0px
+  h1
+    background: none
+    padding: 5px 20px
+    text-transform: none
+    letter-spacing: 0px
+    +font(16,17)
+    time
+      +font(9,17)
+      color: $darkGrey2
+  p
+    padding: 0px 20px
+  a
+    color: $red
+    &:hover
+      text-decoration: underline
+
+
+
 // modules
 @import "includes/_header"
 @import "includes/_aboutWilliam"
+@import "includes/_writings"

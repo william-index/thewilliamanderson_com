@@ -1,5 +1,5 @@
 -# About William
-%section.content.box#AboutWilliam
+%section.content.box.shadow#AboutWilliam
 
   -# Tools
   %section.about#tools
@@ -27,9 +27,8 @@
   %section.about#books
     %h1 Currently Reading:
     %section.books
-    - books.each_with_index do |title, i|
-      %p
-        %a{href: "https://www.goodreads.com/book/show/#{links[i].text}", target: "_blank"}
+      - books.each_with_index do |title, i|
+        %a.book{href: "https://www.goodreads.com/book/show/#{links[i].text}", target: "_blank"}
           = "#{title} by #{authors[i]}"
 
   %section.about#occupation

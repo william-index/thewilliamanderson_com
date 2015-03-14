@@ -1,5 +1,20 @@
+// ABOUT WILLIAM SPECIFIC STYLES
 section#AboutWilliam
   margin-top: 20px
+
+.books a.book
+  +block(auto, auto)
+  font-family: $sans
+  +font(12,17)
+  padding: 9px 20px 0px 20px
+  color: $darkGrey
+  max-width: 70%
+  text-decoration: underline
+  &:hover
+    color: $red
+  &:last-child
+    padding-bottom: 15px
+
 
 // Homepage Jobs Styling
 section.job
