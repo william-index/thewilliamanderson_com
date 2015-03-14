@@ -1,6 +1,50 @@
 // WRITINGS SECTION
 section#writings
-  margin-top: 20px
+  display: block
+  margin-top: 15px
 
+
+// High Level Styles
 #recent_posts
   margin-bottom: 20px
+  h1.huge
+    @extend %content_block
+    font-weight: $light
+    text-transform: uppercase
+    color: $red
+    background: $nearWhite
+    letter-spacing: 1px
+    +font(20,24)
+    text-align: center
+    background: none
+
+// Excerpt Styling
+section#writings .excerpt
+  display: block
+  float: left
+  width: 100%
+  margin: 12px 0px
+  position: relative
+  h1
+    font-family: $sans
+    font-weight: $light
+    padding: 5px 20px
+    text-transform: none
+    letter-spacing: 0px
+    +font(16,17)
+    time
+      +font(12,17)
+      color: $darkGrey2
+  p
+    @extend %content_block
+    padding: 0px 20px
+    max-width: 70%
+  a
+    color: $red
+    &:hover
+      text-decoration: underline
+
+  a.arrow_link
+    position: absolute
+    bottom: 0px
+    right: 25px

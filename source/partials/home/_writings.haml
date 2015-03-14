@@ -1,5 +1,5 @@
 %section#writings
-  %section.content.box#recent_posts
+  %section.box#recent_posts
     %h1.huge Recent posts
     %div
       -# Lists out the 3 most recent blog excerpts
@@ -10,7 +10,8 @@
               = article.title
               %time= article.date.strftime('%b %e, %Y')
           %p= article.data.excerpt
-          %a{href: article.url}
+          %a.arrow_link{href: article.url}
             .arTop
             .arBot
             .arStem
+    .clear

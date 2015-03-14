@@ -1,7 +1,32 @@
 // ABOUT WILLIAM SPECIFIC STYLES
 section#AboutWilliam
   margin-top: 20px
+  h1
+    @extend %content_block
+    font-weight: $light
+    text-transform: uppercase
+    color: $red
+    background: $nearWhite
+    letter-spacing: 1px
+  h2
+    @extend %content_block
+    +font(10,17)
+    font-weight: $normal
+    color: $darkGrey2
+    text-transform: none
+    padding: 6px 20px 0px 20px
+  p
+    @extend %content_block
+    padding: 9px 20px
+    color: $darkGrey
+    max-width: 70%
+    a
+      color: $darkGrey
+      text-decoration: underline
+      &:hover
+        color: $red
 
+//  Adjustments for Book Styling
 .books a.book
   +block(auto, auto)
   font-family: $sans
