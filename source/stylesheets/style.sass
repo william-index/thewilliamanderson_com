@@ -28,6 +28,7 @@ section.box
   padding: 12px 20px
   +font(12,17)
 
+// @TODO this should be namespaced and only style for the about section
 .content
   h1
     @extend %content_block
@@ -58,6 +59,7 @@ section.box
       &:hover
         color: $red
 
+//  @TODO this should be decoupled and make into part of the styling for open posts section under writing.sass
 //  Adjustments for excerpt style general content
 .excerpt
   display: block
