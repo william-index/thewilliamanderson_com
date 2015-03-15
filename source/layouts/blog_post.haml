@@ -2,4 +2,14 @@
 %html
   = partial "/partials/_head"
   %body
-    =yield
+    = partial "/partials/_header"
+    %article
+      %header
+        %h1= current_page.data.title
+        %time= current_page.date.strftime('%b %e, %Y')
+      %main
+        =yield
+      %footer
+        %a{href:"http://thewilliamanderson.com", rel: "author"} William Anderson
+    %section.comments
+      

@@ -10,5 +10,10 @@ gem "middleman-livereload", "~> 3.1.0"
 # Blog
 gem "middleman-blog"
 gem "middleman-syntax", "~> 1.1.1"
+
+# XML Parsing
 gem "nokogiri"
 gem "redcarpet"
+
+# comments
+# https://github.com/simonrice/middleman-disqus
