@@ -1,0 +1,18 @@
+events:
+  - title: Embrace the Medium
+    date: Nov 2014
+    type: Lecture
+    location: Addison Design Co.
+    description: A lecture focused on how to design and sell inconsistency on the web to 100 employees.
+
+  - title: Building Twitter Bots
+    date: Mar 2014
+    type: Workshop
+    location: Parsons Code Club
+    description: A workshop in which participants built twitter bots using PHP and Cron Jobs.
+
+  - title: Coding After Design School
+    date: Dec 2012
+    type: Lecture
+    location: Parsons the New School for Design
+    description: A lecture focused on helping to prepare students for what a career in code may look like after attedning design school.
