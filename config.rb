@@ -53,6 +53,12 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+
+# syntax highlighting
+activate :rouge_syntax
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -72,8 +78,7 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-# syntax highlighting
-activate :syntax, :line_numbers => true
+
 
 activate :blog do |blog|
   blog.layout = "blog_post"
