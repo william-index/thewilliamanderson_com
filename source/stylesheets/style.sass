@@ -67,6 +67,41 @@ h1.huge
   text-align: center
   background: none
 
+// Genral talk styling
+article.talk
+  @extend %content_block
+  float: left
+  clear: both
+  min-width: 95%
+  width: auto
+  h1
+    display: block
+    float: left
+    font-family: $sans
+    font-weight: $light
+    +font(14,17)
+    color: $red
+  time
+    display: block
+    float: left
+    +font(12,19)
+    color: $darkGrey2
+    margin-left: 10px
+  span.location
+    display: block
+    float: left
+    clear: both
+    font-family: gerogia, serif
+    font-style: italic
+    color: $darkGrey
+    +font(13,16)
+    margin: 4px auto
+  p
+    display: block
+    float: left
+    clear: both
+    width: 80%
+
 
 // modules
 @import "includes/_header"
