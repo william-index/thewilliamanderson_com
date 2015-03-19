@@ -31,7 +31,7 @@ Content Cell  | Content Cell
 
 Exercitation labore *consequat* labore velit ea dolore. Aute enim labore sit anim excepteur deserunt **cupidatat** amet officia. Magna pariatur laborum culpa sunt consectetur excepteur sit aliquip id voluptate veniam. Aliquip amet mollit est enim est id adipisicing labore consectetur.
 
-> this is my blockquote -- this is my attribution
+> this is my blockquote
 
 ```ruby
 
@@ -48,4 +48,4 @@ $(document).ready ->
 ```
 Exercitation labore *consequat* labore velit ea dolore. Aute enim labore sit anim excepteur deserunt **cupidatat** amet officia. Magna pariatur laborum culpa sunt consectetur excepteur sit aliquip id voluptate veniam. Aliquip amet mollit est enim est id adipisicing labore consectetur.
 
-> this is my blockquote -- this is my attribution
+> this is my blockquote

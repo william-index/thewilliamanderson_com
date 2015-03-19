@@ -1,0 +1,52 @@
+$elementMargin: 25px
+$blogMax: 600px
+
+article.blog_post
+
+  // post titles
+  header
+    h1
+    time
+
+  // "block" level styling
+  main
+    p, .highlight, table
+      width: 80%
+      max-width: $blogMax
+      margin: $elementMargin auto
+      color: $darkGrey
+    img
+      display: block
+      width: auto
+      margin: $elementMargin auto
+      max-width: $blogMax
+      // This full hack centers despite the container
+      &.full
+        margin-left: 50%
+        position: relative
+        left: -50vw
+        width: 100vw
+        max-width: 100vw
+    p
+      font-family: $sans
+      font-size: 1em
+      line-height: 1.4em
+
+    ul, ol
+      li
+
+    blockquote
+
+  // "inline" styles
+  strong
+  em
+  a
+
+  // author attribution
+  footer
+    a
+
+
+// syntax highlights
+.highlight
+  background: $nearWhite
