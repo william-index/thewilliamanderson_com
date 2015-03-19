@@ -10,11 +10,13 @@ article.blog_post
 
   // "block" level styling
   main
-    p, .highlight, table
+    p, .highlight, table, ul, ol
       width: 80%
       max-width: $blogMax
       margin: $elementMargin auto
       color: $darkGrey
+      ul, ol
+        margin: 0px
     img
       display: block
       width: auto
@@ -33,7 +35,11 @@ article.blog_post
       line-height: 1.4em
 
     ul, ol
+      width: 70%
+      max-width: $blogMax - $elementMargin
+      padding-left: $elementMargin
       li
+
 
     blockquote
 
