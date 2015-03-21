@@ -10,7 +10,7 @@
         .div
   %nav.mainNav
     - ["About William", "Blog", "Publications", "Personal Projects", "Lectures &amp; Courses", "Communities &amp; Groups", "Attended Events", "Illustrations"].each do |sect|
-      %a{href: "#"+sect.gsub(/(\s+|&amp;)/, ""), id: sect.gsub(/(\s+|&amp;)/, "")}= sect
+      %a{href: "#"+sect.gsub(/(\s+|&amp;)/, ""), id: sect.gsub(/(\s+|&amp;)/, "")+"Nav"}= sect
 
 -# Social Channels are disabled for ie8 and below due to lack of vendor support
 :plain
