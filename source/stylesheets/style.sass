@@ -102,6 +102,23 @@ article.talk
     clear: both
     width: 80%
 
+// Groups/Activities styling
+section.groups
+  @extend %content_block
+  float: left
+  clear: both
+  min-width: 95%
+  width: auto
+  h1
+    +block(100%, auto)
+    float: left
+    clear: both
+    +font(12,19)
+    color: $darkGrey2
+  p
+    @extend h1
+    color: black
+    font-size: 14px
 
 // tables
 
