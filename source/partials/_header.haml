@@ -4,13 +4,13 @@
     .logoBar
       %a.logo{href: "/"}
         %h1 William Anderson
-        %img{src: "images/logos/william_anderson_logo.png", alt: "William Anderson Logo"}
+        = image_tag 'logos/william_anderson_logo.png', :alt => "The William Anderson's Logo"
     %a.burger{href: "#"}
       - (1..3).each do |i|
         .div
   %nav.mainNav
-    - ["About William", "Blog", "Publications", "Personal Projects", "Communities &amp; Groups", "Attended Events", "Illustrations"].each do |sect|
-      %a{href: "#"+sect.gsub(/(\s+|&amp;)/, "")}= sect
+    - ["About William", "Blog", "Publications", "Personal Projects", "Lectures &amp; Courses", "Communities &amp; Groups", "Attended Events", "Illustrations"].each do |sect|
+      %a{href: "#"+sect.gsub(/(\s+|&amp;)/, ""), id: sect.gsub(/(\s+|&amp;)/, "")}= sect
 
 -# Social Channels are disabled for ie8 and below due to lack of vendor support
 :plain

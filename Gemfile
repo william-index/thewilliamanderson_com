@@ -9,9 +9,11 @@ gem "middleman-livereload", "~> 3.1.0"
 
 # Blog
 gem "middleman-blog"
+gem 'middleman-rouge'
+gem "redcarpet"
 
-# For faster file watcher updates on Windows:
-gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
+# XML Parsing
+gem "nokogiri"
 
-# Windows does not come with time zone data
-gem "tzinfo-data", platforms: [:mswin, :mingw]
+# comments
+# https://github.com/simonrice/middleman-disqus

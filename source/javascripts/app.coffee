@@ -21,6 +21,18 @@ $(document).ready ->
     e.preventDefault()
     scroll $(this).attr("href")
 
+  # Open/Close Boxes
+  # -----------------
+  $(".open_close_box .band").click (e) ->
+    e.preventDefault()
+    $(this).closest(".open_close_box").toggleClass "open"
+
+
+
+  # -----------------------
+  # Methods
+  # -----------------------------------
+
 
   ###*
   * Toggles the state of the burger Icon and the

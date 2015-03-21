@@ -12,46 +12,120 @@ body
   padding-top: 70px
 
 section.box
-  @extend %shadow
   +block(100%, auto)
   max-width: 600px
   margin: 0px auto
   clear: both
   background: white
+  &.shadow
+    @extend %shadow
 
 
 // GENERAL CONTENT STYLING
-section.content
-  %content_block
-    +block(auto, auto)
-    font-family: $sans
-    padding: 12px 20px
-    +font(12,17)
+%content_block
+  +block(auto, auto)
+  font-family: $sans
+  padding: 12px 20px
+  +font(12,17)
+
+
+// Arrow Link Buttons
+$depth: 4px
+a.box_link
+  +block(37px, 30px)
+  float: left
+  border: solid $darkGrey
+  border-width: 2px 2px $depth+2 2px
+  position: relative
+  &:hover
+    border-bottom-width: 2px
+
+a.arrow_link
+  @extend a.box_link
+  svg
+    +block(100%,100%)
+    margin-top: 5px
+    margin-left: 9px
+
+// Section header styling
+h1.band
+  @extend %content_block
+  font-weight: $light
+  text-transform: uppercase
+  color: $red
+  background: $nearWhite
+  letter-spacing: 1px
+
+h1.huge
+  @extend %content_block
+  font-weight: $light
+  text-transform: uppercase
+  color: $red
+  background: $nearWhite
+  letter-spacing: 1px
+  +font(20,24)
+  text-align: center
+  background: none
+
+// Genral talk styling
+article.talk
+  @extend %content_block
+  float: left
+  clear: both
+  min-width: 95%
+  width: auto
   h1
-    @extend %content_block
+    display: block
+    float: left
+    font-family: $sans
     font-weight: $light
-    text-transform: uppercase
+    +font(14,17)
     color: $red
-    background: $nearWhite
-    letter-spacing: 1px
-  h2
-    @extend %content_block
-    +font(10,17)
-    font-weight: $normal
+  time
+    display: block
+    float: left
+    +font(12,19)
     color: $darkGrey2
-    text-transform: none
-    padding: 6px 20px 0px 20px
-  p
-    @extend %content_block
-    padding: 9px 20px
+    margin-left: 10px
+  span.location
+    display: block
+    float: left
+    clear: both
+    font-family: gerogia, serif
+    font-style: italic
     color: $darkGrey
-    max-width: 70%
-    a
-      color: $darkGrey
-      text-decoration: underline
-      &:hover
-        color: $red
+    +font(13,16)
+    margin: 4px auto
+  p
+    display: block
+    float: left
+    clear: both
+    width: 80%
+
+// Groups/Activities styling
+section.groups
+  @extend %content_block
+  float: left
+  clear: both
+  min-width: 95%
+  width: auto
+  h1
+    +block(100%, auto)
+    float: left
+    clear: both
+    +font(12,19)
+    color: $darkGrey2
+  p
+    @extend h1
+    color: black
+    font-size: 14px
+
+// tables
+
 
 // modules
 @import "includes/_header"
 @import "includes/_aboutWilliam"
+@import "includes/_writings"
+@import "includes/_open_close_box"
+@import "includes/_blog_post.sass"
