@@ -10,7 +10,7 @@ $z: topBar
 // Core styles
 body
   padding-top: 70px
-  
+
 section.box
   +block(100%, auto)
   max-width: 600px
@@ -37,8 +37,21 @@ a.box_link
   border: solid $darkGrey
   border-width: 2px 2px $depth+2 2px
   position: relative
+  font-family: $sans
+  color: $red
   &:hover
     border-bottom-width: 2px
+    cursor: pointer
+  &.center
+    display: inline-block
+    padding: 0px 15px
+    margin: 10px auto
+    +font(14,30)
+    float: none
+    width: auto
+    clear: both
+    &:hover
+      margin-top: 14px
 
 a.arrow_link
   @extend a.box_link
