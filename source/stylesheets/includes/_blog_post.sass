@@ -1,22 +1,40 @@
 $elementMargin: 25px
+$blogPercent: 80%
 $blogMax: 600px
 
 article.blog_post
 
   // post titles
   header
+    width: $blogPercent
+    max-width: $blogMax
+    margin: $elementMargin auto
     h1
+      font-family: $sans
+      font-weight: $light
+      font-size: 3em
+      line-height: 1.2em
+      color: $red
     time
+      font-family: $sans
+      font-size: 1em
+      color: $darkGrey2
 
   // "block" level styling
   main
-    p, .highlight, table, ul, ol
-      width: 80%
+    p, .highlight, table, ul, ol, h1, h2, h3
+      width: $blogPercent
       max-width: $blogMax
       margin: $elementMargin auto
       color: $darkGrey
       ul, ol
         margin: 0px
+    @for $i from 1 through 3
+      h#{$i}
+        font-family: $sans
+        font-size: 2em - (($i - 1)*0.4)
+        color: $red
+
     img
       display: block
       width: auto
@@ -30,29 +48,60 @@ article.blog_post
         width: 100vw
         max-width: 100vw
     p
-      font-family: $sans
+      font-family: $serif
       font-size: 1em
-      line-height: 1.4em
+      line-height: 1.8em
 
     ul, ol
       width: 70%
       max-width: $blogMax - $elementMargin
       padding-left: $elementMargin
       li
-
+        line-height: 1.6em
 
     blockquote
+      width: 100%
+      background: $pattern
+      text-align: center
+      padding: 20px 0px
+      p
+        font-size: 1.6em
+        line-height: 2.0em
+        color: $red
+        &:before
+          content: '“ '
+        &:after
+          content: ' ”'
 
   // "inline" styles
   strong
+    font-weight: $bold
+    color: $red
   em
+    font-style: italic
   a
+    color: $darkGrey
+    text-decoration: underline
+    &:hover
+      color: $red
 
   // author attribution
   footer
-    a
+    @extend section.box
+    @extend %shadow
+    p
+      padding: 20px
+      font-family: $sans
+      color: $darkGrey2
+      margin: $elementMargin auto
 
 
 // syntax highlights
 .highlight
   background: $nearWhite
+
+section.comments
+  display: block
+  width: $blogPercent
+  max-width: $blogMax
+  margin: $elementMargin auto

@@ -16,4 +16,4 @@ gem "redcarpet"
 gem "nokogiri"
 
 # comments
-# https://github.com/simonrice/middleman-disqus
+gem "middleman-disqus"
