@@ -3,6 +3,7 @@ title: Template Test
 subtitle: This is the sub title?
 date: 2011/10/18
 excerpt: This is a test showing all the key starting elements I need in post templates
+public: false
 ---
 # heading
 
@@ -31,7 +32,7 @@ Content Cell  | Content Cell
 
 Exercitation labore *consequat* labore velit ea dolore. Aute enim labore sit anim excepteur deserunt **cupidatat** amet officia. Magna pariatur laborum culpa sunt consectetur excepteur sit aliquip id voluptate veniam. Aliquip amet mollit est enim est id adipisicing labore consectetur.
 
-> this is my blockquote
+> this is my blockquote this is my blockquote this is my blockquote this is my blockquote this is my blockquote this is my blockquote
 
 ```ruby
 

@@ -10,5 +10,10 @@
   -# Google fonts for Open Sans, Light and Regular
   %link{href: 'http://fonts.googleapis.com/css?family=Open+Sans:400,300', rel: 'stylesheet', type: 'text/css'}
 
+  -# resources
   = stylesheet_link_tag "style", "pygments-github"
   = javascript_include_tag "all"
+
+  -# ie specifics
+  /[if lte IE 8]
+    = stylesheet_link_tag "ie8"

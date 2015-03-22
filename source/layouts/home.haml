@@ -6,56 +6,8 @@
 
     = partial "/partials/home/_aboutWilliam"
 
-    -# = partial "/partials/home/_writings"
+    = partial "/partials/home/_writings"
 
-    %h1.huge Activity
+    = partial "/partials/home/_activity"
 
-    -# Lectures and Courses
-    %section.open_close_box.box.shadow#LecturesCourses
-      %h1.band
-        Lectures &amp; Courses
-        .plus_minus
-          .div
-          .div
-      - data.talks.events.each do |talk|
-        %article.talk
-          %h1= talk.title
-          %time= talk.date
-          %span.location= "#{talk.type} @ #{talk.location}"
-          %p= talk.description
-
-    -# Communities and Groups
-    %section.open_close_box.box.shadow#CommunitiesGroups
-      %h1.band
-        Communities &amp; Groups
-        .plus_minus
-          .div
-          .div
-      - data.organizations.each do |grouping|
-        %section.groups
-          %h1= grouping.title
-          %p
-            - i = 0
-            - grouping.groups.each do |org|
-              - if i != 0
-                ,
-              = org
-              - i+=1
-
-    -# Attended Conferences
-    %section.open_close_box.box.shadow#AttendedEvents
-      %h1.band
-        Attended Conferences
-        .plus_minus
-          .div
-          .div
-      - data.attended.each do |attend|
-        %section.groups
-          %h1= attend.title
-          %p
-            - i = 0
-            - attend.conferences.each do |org|
-              - if i != 0
-                ,
-              = org
-              - i+=1
+    = partial "/partials/_footer"
