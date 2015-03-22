@@ -12,7 +12,7 @@ article.blog_post
     h1
       font-family: $sans
       font-weight: $light
-      font-size: 3em
+      font-size: 2.8em
       line-height: 1.2em
       color: $red
     time
@@ -39,7 +39,7 @@ article.blog_post
       display: block
       width: auto
       margin: $elementMargin auto
-      max-width: $blogMax
+      max-width: 100%
       // This full hack centers despite the container
       &.full
         margin-left: 50%
@@ -76,8 +76,8 @@ article.blog_post
   // "inline" styles
   strong
     font-weight: $bold
-    color: $red
-  em
+    color: black
+  em, em strong, em a
     font-style: italic
   a
     color: $darkGrey
@@ -99,6 +99,7 @@ article.blog_post
 // syntax highlights
 .highlight
   background: $nearWhite
+  line-height: 20px
 
 section.comments
   display: block

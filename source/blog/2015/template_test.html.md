@@ -3,7 +3,7 @@ title: Template Test
 subtitle: This is the sub title?
 date: 2011/10/18
 excerpt: This is a test showing all the key starting elements I need in post templates
-
+public: false
 ---
 # heading
 

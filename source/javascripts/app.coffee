@@ -18,8 +18,9 @@ $(document).ready ->
     toggle_menu()
 
   $("nav.mainNav a").click (e) ->
-    e.preventDefault()
-    scroll $(this).attr("href")
+    if($(this).parent().hasClass "home")
+      e.preventDefault()
+      scroll $(this).attr("href")
 
   # Open/Close Boxes
   # -----------------

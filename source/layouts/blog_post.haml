@@ -13,5 +13,11 @@
         %p
           Authored by:
           %a{href:"http://thewilliamanderson.com", rel: "author"} William Anderson
+    :plain
+      <!--[if gte IE 9 | !IE ]><!-->
     %section.comments
       = disqus
+    :plain
+      <![endif]-->
+
+    = partial "/partials/_footer"
