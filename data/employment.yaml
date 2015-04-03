@@ -1,0 +1,21 @@
+-
+  title: "Current Roles:"
+  jobs:
+    - title: Lead Web Developer
+      company: '@ <a href="http://addison.com" target="_blank">Addison Design Co.</a>'
+      logo: addison_logo.png
+
+    - title: Private iOS
+      company: Development Tutor
+      logo: william_anderson_logo.png
+
+-
+  title: "Past Roles:"
+  jobs:
+    - title: Co-founder / Lead Engineer
+      company: Index Interactive
+      logo: index_logo.png
+
+    - title: Game Developer
+      company: DMA Animation
+      logo: dma_logo.jpg
