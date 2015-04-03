@@ -1,0 +1,11 @@
+- title: "WEAMON: Weather Monsters"
+  languages: "Objective-C, NSSql, Magic Record, PHP, MySQL, JSON"
+  image: weamon.jpg
+
+- title: "Captain's Log"
+  languages: "PHP, Twitter API + (html/css/js)"
+  image: captainslog.jpg
+
+- title: "Pettrip"
+  languages: "Objective-C"
+  image: pettrip.jpg

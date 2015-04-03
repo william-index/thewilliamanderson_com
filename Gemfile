@@ -17,3 +17,5 @@ gem "nokogiri"
 
 # comments
 gem "middleman-disqus"
+
+gem "middleman-bourbon"
