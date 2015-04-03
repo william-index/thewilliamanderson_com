@@ -21,6 +21,7 @@ $(document).ready ->
     if($(this).parent().hasClass "home")
       e.preventDefault()
       scroll $(this).attr("href")
+      toggle_menu()
 
   # Open/Close Boxes
   # -----------------
