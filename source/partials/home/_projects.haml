@@ -1,0 +1,16 @@
+%section#PersonalProjects
+  %h1.huge Personal Projects
+
+  - data.projects.each do |proj|
+    %article.project
+      = image_tag "projects/"+proj.image, class: "thumb"
+      %h1= proj.title
+      %span.languages= proj.languages
+      %a.arrow_link{href: proj.url, target: "_blank"}
+        :plain
+          <svg>
+            <polyline fill="none" stroke="#D65B5B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+            10.417,1.5 17.284,9.429 10.417,17.359 	"/>
+            <line fill="none" stroke="#D65B5B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.284" y1="9.429" x2="1.5" y2="9.429"/>
+            <image xlink:href="#{image_path('icons/red_arrow.gif')}" src="#{image_path('icons/red_arrow.gif')}" />
+          </svg>
