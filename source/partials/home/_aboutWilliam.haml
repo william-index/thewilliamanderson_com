@@ -27,14 +27,12 @@
           = "#{title} by #{authors[i]}"
 
   %section.about#occupation
-    %h1.band Currently Working at:
-    %section.job
-      %img{src: "images/logos/addison_logo.png"}
-      %p
-        Lead Web Developer<br />@
-        %a{href: "http://www.addison.com/", target: "_blank"}
-          Addison Design Co.
-    %section.job
-      %img{src: "images/logos/william_anderson_logo.png"}
-      %p
-        Private iOS<br />Development Tutor
+    - data.employment.each do |employ|
+      %h1.band= employ.title
+      - employ.jobs.each do |job|
+        %section.job
+          %img{src: "images/logos/"+job.logo}
+          %p
+            = job.title
+            <br />
+            = job.company
