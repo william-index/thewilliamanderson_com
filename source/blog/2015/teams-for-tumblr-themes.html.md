@@ -10,9 +10,12 @@ While major brands such as Skittles turn to Tumblr not only for broadcasting the
 <img src="/blog/2015/images/tumblr_themes/skittles_com.jpg" class="full" alt='Skittles.com Mar 22, 2015'/>
 _\* I was not involved in making the Skittles website, its just an example of the draw and cultural force of Tumblr._
 
-# Assumptions/ pre-reqs
+# Assumptions/ pre-reqs/ limits
 
 In this explanation I'll be talking specifically about using [Middleman](http://middlemanapp.com) and ruby-related stack of haml/sass/coffee. However, these could in theory be substituted for any other build environment or framework. However, experience in some form of environment that allows for concatenating files as well as using some form of source version control system is a must (I'll refer to git throughout the article, but mentally replace that with /whatever/).
+
+**Warning**
+*As Tumblr is https, you will either need to find a way to implement https/SSL on your local environment, OR use a browser that will allow you to access an http file from a site with SSL. This is not an issue for the final deploy, but rather for the development environment, as Tumblr is accessed via https. For OSX, Safari will allow you to work like this even over http. If you know of an easy way in general to get this working with Middleman, please (PLEASE) comment below.*
 
 # The Database is your Bottleneck
 ### Setting up the "server"
