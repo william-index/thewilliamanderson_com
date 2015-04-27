@@ -15,6 +15,9 @@ gem "redcarpet"
 # XML Parsing
 gem "nokogiri"
 
+# builder for xml feeds
+gem "builder"
+
 # comments
 gem "middleman-disqus"
 

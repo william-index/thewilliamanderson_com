@@ -6,6 +6,8 @@
     %article.blog_post
       %header
         %h1= current_page.data.title
+        - if current_page.data.subtitle.length > 0
+          %h2= current_page.data.subtitle
         %time= current_page.date.strftime('%b %e, %Y')
       %main
         =yield

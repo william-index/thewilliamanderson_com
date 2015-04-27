@@ -1,6 +1,6 @@
 ---
 title: A Team-based Workflow for Tumblr Theme Development
-subtitle: This is the sub title?
+subtitle: ""
 date: 2015/03/22
 excerpt: A proposed workflow for developing a Tumblr theme with a team of developers.
 public: true
