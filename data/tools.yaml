@@ -1,8 +1,8 @@
-- category: Everyday Use
-  contents: Middleman, SaSS, haml, Coffeescript, jQuery, PHP, MySQL, Wordpress, Git, Objective-C, Swift, Kanban
+- category: Everyday Use (languages ordered by frequency)
+  contents: Middleman, SaSS, haml, Coffeescript, Github, jQuery, Swift, PHP, MySQL, Wordpress, Kanban, Ruby
 
 - category: Learning/Exploring
-  contents: Ruby, OWASP practices
+  contents: Angular.js
 
 - category: Misc+/Past Experience
-  contents: Dendelion Deploy, Raphael.js, Pascal, 6502 Assembly, Actionscript 3
+  contents: Dendelion Deploy, Raphael.js, Pascal, 6502 Assembly, Actionscript 3, Objective-C
