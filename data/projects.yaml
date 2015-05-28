@@ -1,3 +1,8 @@
+- title: "Placemat: An HTML table preprocessor"
+  languages: "Ruby (and a docs website)"
+  image: plmat.gif
+  url: http://william-index.github.io/placemat/index.html
+
 - title: "WEAMON: Weather Monsters"
   languages: "Objective-C, NSSql, Magic Record, PHP, MySQL, JSON"
   image: weamon.jpg
