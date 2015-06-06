@@ -28,11 +28,12 @@
 
   %section.about#occupation
     - data.employment.each do |employ|
-      %h1.band= employ.title
-      - employ.jobs.each do |job|
-        %section.job
-          %img{src: "images/logos/"+job.logo}
-          %p
-            = job.title
-            <br />
-            = job.company
+      %section.employment
+        %h1.band= employ.title
+        - employ.jobs.each do |job|
+          %section.job
+            %img{src: "images/logos/"+job.logo}
+            %p
+              = job.title
+              <br />
+              = job.company
