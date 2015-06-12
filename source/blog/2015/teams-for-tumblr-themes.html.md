@@ -12,7 +12,7 @@ _\* I was not involved in making the Skittles website, its just an example of th
 
 # Assumptions/ pre-reqs/ limits
 
-In this explanation I'll be talking specifically about using [Middleman](http://middlemanapp.com) and ruby-related stack of haml/sass/coffee. However, these could in theory be substituted for any other build environment or framework. However, experience in some form of environment that allows for concatenating files as well as using some form of source version control system is a must (I'll refer to git throughout the article, but mentally replace that with /whatever/).
+In this explanation I'll be talking specifically about using [Middleman](http://middlemanapp.com) and ruby-related stack of haml/Sass/coffee. However, these could in theory be substituted for any other build environment or framework. However, experience in some form of environment that allows for concatenating files as well as using some form of source version control system is a must (I'll refer to git throughout the article, but mentally replace that with /whatever/).
 
 **Warning**
 *As Tumblr is https, you will either need to find a way to implement https/SSL on your local environment, OR use a browser that will allow you to access an http file from a site with SSL. This is not an issue for the final deploy, but rather for the development environment, as Tumblr is accessed via https. For OSX, Safari will allow you to work like this even over http. If you know of an easy way in general to get this working with Middleman, please (PLEASE) comment below.*
@@ -99,7 +99,7 @@ As each dev has their own blog, they will update as needed. As source code is me
 
 During dev, any resources used (js/css) should be linked to on your local environment. So in the case of Middleman, most likely to http://localhost:4567/etc.... This way, as you make changes to scripts and styling, they will update in realtime based on the resources that Middleman is compiling in real time.
 
-Breaking out your Sass into partials for sections/whatever will also ease the multi-developer workflow. The same goes for scripts. But there are [numerous articles](http://thesassway.com/beginner/how-to-structure-a-sass-project) on doing this, so I wont expand upon it here.
+Breaking out your Sass into partials for sections/whatever will also ease the multi-developer workflow. The same goes for scripts. But there are [numerous articles](http://theSassway.com/beginner/how-to-structure-a-Sass-project) on doing this, so I wont expand upon it here.
 
 *In Middleman, the [Asset Pipeline](https://middlemanapp.com/advanced/asset_pipeline/) makes it easy to split apart the classes of your js/coffee into other files, and also to combine all of your scripts into a single all.js*
 

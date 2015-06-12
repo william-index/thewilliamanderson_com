@@ -1,5 +1,5 @@
 - category: Everyday Languages
-  contents: SaSS, haml, CoffeeScript, JavaScript, PHP, Swift
+  contents: Sass, haml, CoffeeScript, JavaScript, PHP, Swift
 
 - category: Everyday Tools & Methodologies
   contents: Middleman, Github, Bourbon, Neat, jQuery, Kanban, Wordpress, BEM, Atomic Design
