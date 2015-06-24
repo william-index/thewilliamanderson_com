@@ -1,10 +1,6 @@
 -
   title: "Current Roles:"
   jobs:
-    - title: Freelance Consultant
-      company: '@ <a href="https://codeclimate.com" target="_blank">Code Climate</a>'
-      logo: codeclimate.gif
-
     - title: Part-time Lecturer
       company: '@ <a href="http://www.newschool.edu/" target="_blank">The New School</a>'
       logo: tns.gif
@@ -16,6 +12,10 @@
 -
   title: "Past Roles:"
   jobs:
+    - title: Freelance Consultant
+      company: '@ <a href="https://codeclimate.com" target="_blank">Code Climate</a>'
+      logo: codeclimate.gif
+
     - title: Lead Web Developer
       company: '@ <a href="http://addison.com" target="_blank">Addison Design Co.</a>'
       logo: addison_logo.png
