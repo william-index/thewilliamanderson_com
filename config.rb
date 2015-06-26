@@ -1,9 +1,10 @@
-
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
+
+require 'deployment'
 
 # ignores layout for xml feed
 page "/feed.xml", :layout => false
@@ -30,8 +31,6 @@ configure :build do
 
   # Use relative URLs
   activate :relative_assets
-
-
 end
 
 activate :disqus do |d|
@@ -42,4 +41,14 @@ activate :blog do |blog|
   blog.layout = "blog_post"
   blog.sources = "blog/{year}/{title}.html"
   blog.permalink = "blog/{title}.html"
+end
+
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.method   = :ftp
+  deploy.host     = $deployment[:host]
+  deploy.path     = $deployment[:path]
+  deploy.user     = $deployment[:user]
+  deploy.password = $deployment[:password]
 end

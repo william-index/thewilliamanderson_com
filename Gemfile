@@ -22,3 +22,7 @@ gem "builder"
 gem "middleman-disqus"
 
 gem "middleman-bourbon"
+
+
+# deployment
+gem 'middleman-deploy', '~> 1.0'
