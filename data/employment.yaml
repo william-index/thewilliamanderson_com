@@ -1,6 +1,11 @@
 -
   title: "Current Roles:"
   jobs:
+    
+    - title: Web Engineer
+      company: '@ <a href="http://www.hugeinc.com/" target="_blank">Huge</a>'
+      logo: huge.png
+
     - title: Part-time Lecturer
       company: '@ <a href="http://www.newschool.edu/" target="_blank">The New School</a>'
       logo: tns.gif
