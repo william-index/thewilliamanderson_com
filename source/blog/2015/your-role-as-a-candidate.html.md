@@ -5,12 +5,15 @@ date: 2015/7/18
 excerpt: As professionals in software/web engineering, there are many expectations set about what we can do on a technical level. Your career however is more than just writing code, its about making decisions.
 public: true
 ---
+
+> It is the candidates responsibility to find the right job, more-so than it is the companies responsibility to find the right candidate.
+
 ## Preamble
 Recently I had the privilege of undergoing a successful job search without the overhead of working full time in the background. This let me take time to really explore opportunities and take the temperature of the job market. I met with 19 different companies across a ton of industries. Some I went pretty far into the process before calling it off, others only went as far as informationals, and naturally a couple (3) didn't see me as the right fit for the role.
 
 Along the way I learned a ton about process, the stacks used at different companies, variations in management, and the hiring philosophies. The totality of which would probably be better for long form writing (like a book).
 
-What I also took away though, is that it is very much the candidates responsibility to find the right job, more-so perhaps than it is the companies responsibility to find the right candidate.
+What I also took away though, is that it is very much the candidates responsibility to find the right job, perhaps than it is the companies responsibility to find the right candidate.
 
 Now that I've found my next home, I wanted to share a bit of advice from my recent experience with interviewing in terms of how to explore, what to look for, and what to look out for.
 
@@ -44,8 +47,10 @@ If you think to yourself "At the end I am going to have to ask a question, so I 
 
 Ask whatever technical questions you see fit, but also ask structural ones. Perhaps for me, my greatest concern at a new company is about how actively involved the C-Level leadership is with development, their understanding of technology, and how this does or doesn't relate to autonomy of their engineers. So I drill pretty hard into these points (along with many others). If you think asking too much makes you seem picky, to me when I have interviewed candidates, its come across more as a sign of capability and selectiveness (in the positive sense).
 
+> Companies will post and interview for positions that are not open.
+
 ## Getting Taken Advantage Of
-Before beginning my own search, I was leading another engineering team and it was my job to hire for its open roles. One thing (that I was guilty of as well) that happens far too frequently, is that **companies will post and interview for positions that are not open** AND interview for them.
+Before beginning my own search, I was leading another engineering team and it was my job to hire for its open roles. One thing (that I was guilty of as well) that happens far too frequently, is that companies will post and interview for positions that are not open AND interview for them.
 
 From the companies point of view, they are "keeping you warm," which is to say, seeing if you are skilled enough for the job, and preventing you from taking another job offer, JUST in case they need you. Its near impossible (for me at least), to really feel out early on if this is whats happening. Asking directly during the process, if the role is ready to be filled immediate can help. Often times in general, clear direct questions show an employer you know what you are talking about anyways.
 
