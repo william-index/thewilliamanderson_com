@@ -6,14 +6,14 @@ excerpt: As professionals in software/web engineering, there are many expectatio
 public: true
 ---
 
-> It is the candidates responsibility to find the right job, more-so than it is the companies responsibility to find the right candidate.
+> It is the candidates responsibility to find the right job, more-so than it is the company's responsibility to find the right candidate.
 
 ## Preamble
 Recently I had the privilege of undergoing a successful job search without the overhead of working full time in the background. This let me take time to really explore opportunities and take the temperature of the job market. I met with 19 different companies across a ton of industries. Some I went pretty far into the process before calling it off, others only went as far as informationals, and naturally a couple (3) didn't see me as the right fit for the role.
 
 Along the way I learned a ton about process, the stacks used at different companies, variations in management, and the hiring philosophies. The totality of which would probably be better for long form writing (like a book).
 
-What I also took away though, is that it is very much the candidates responsibility to find the right job, perhaps than it is the companies responsibility to find the right candidate.
+What I also took away though, is that it is very much the candidates responsibility to find the right job, perhaps than it is the company's responsibility to find the right candidate.
 
 Now that I've found my next home, I wanted to share a bit of advice from my recent experience with interviewing in terms of how to explore, what to look for, and what to look out for.
 
