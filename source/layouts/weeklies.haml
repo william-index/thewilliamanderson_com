@@ -1,0 +1,14 @@
+!!!
+%html
+  = partial "/partials/_head"
+  %body
+    = partial "/partials/_header"
+
+    %section.weeklies-container
+      - data.weeklies.each do |proj|
+        %a.weekly{href: proj.url, target: "_blank"}
+          = image_tag "weeklies/"+proj.image, class: "weekly__image"
+          %h1.weekly__title= proj.title
+          %span.weekly__date= proj.date
+
+    = partial "/partials/_footer"
