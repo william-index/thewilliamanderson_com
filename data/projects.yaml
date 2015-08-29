@@ -8,12 +8,12 @@
   image: weamon.jpg
   url: https://itunes.apple.com/us/app/weamon/id673727265?mt=8
 
-- title: "Captain's Log"
-  languages: "PHP, Twitter API + (html/css/js)"
-  image: captainslog.jpg
-  url: http://captainsloggame.com/
-
 - title: "Pettrip"
   languages: "Objective-C"
   image: pettrip.jpg
   url: https://itunes.apple.com/us/app/pettrip/id604916334?mt=8
+
+- title: "Captain's Log"
+  languages: "PHP, Twitter API + (html/css/js)"
+  image: captainslog.jpg
+  url: http://captainsloggame.com/

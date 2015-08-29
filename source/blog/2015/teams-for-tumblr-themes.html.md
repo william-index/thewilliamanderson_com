@@ -3,6 +3,7 @@ title: A Team-based Workflow for Tumblr Theme Development
 subtitle: ""
 date: 2015/03/22
 excerpt: A proposed workflow for developing a Tumblr theme with a team of developers.
+cover_img: 2015/images/tumblr_themes/cover.gif
 public: true
 ---
 While major brands such as Skittles turn to Tumblr not only for broadcasting their identity, but also as the host for their brand websites, the demand for development of custom themes has increased. From my readings online however, there is little noted about a sane workflow for a team of developers to work together on a single Tumblr theme. The use of just one textfield full of html that represents all layouts proves problematic. There is however a way around it.

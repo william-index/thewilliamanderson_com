@@ -3,6 +3,7 @@ title: Curating Animation Timelines with Sass
 subtitle: How to curate and time recurring animations sequentially and looped over multiple objects with Sass and not lose your mind.
 date: 2015/06/08
 excerpt: CSS animations are fantastic, but when it comes to longer sequences over multiple objects that animate in order things get tricky. This tutorial explores creating a timeline for such animations using Sass.
+cover_img: 2015/images/sass_timelines/cover.gif
 public: true
 ---
 <p data-height="373" data-theme-id="0" data-slug-hash="pJPOje" data-default-tab="result" data-user="william-index" class='codepen'>See the Pen <a href='http://codepen.io/william-index/pen/pJPOje/'>Looped animation with delays</a> by William Anderson (<a href='http://codepen.io/william-index'>@william-index</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

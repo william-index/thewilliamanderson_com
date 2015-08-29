@@ -12,12 +12,15 @@ section#writings
 
 
 // Excerpt Styling
-section#writings .excerpt
+.blog-post-preview
+  box-sizing: border-box
   display: block
   float: left
   width: 100%
   margin: 12px 0px
   position: relative
+  min-height: 90px
+
   h1
     display: block
     float: left
@@ -36,13 +39,27 @@ section#writings .excerpt
     float: left
     clear: both
     padding: 0px 20px
-    max-width: 70%
+    max-width: 100%
   a h1
     color: $red
     &:hover
       text-decoration: underline
 
-  a.arrow_link
-    position: absolute
-    bottom: 0px
-    right: 25px
+  &:nth-child(odd)
+    padding-left: 20%
+
+  &:nth-child(even)
+    padding-right: 20%
+
+.blog-post-preview__image
+  +block(19%, 100%)
+  background-size: cover
+  background-position: center center
+  position: absolute
+  top: 0
+
+  .blog-post-preview:nth-child(odd) &
+    left: 0
+
+  .blog-post-preview:nth-child(even) &
+    right: 0

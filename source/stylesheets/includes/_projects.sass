@@ -3,44 +3,57 @@ $projectHeight: 84px
 section#PersonalProjects
   margin: 20px auto
 
-article.project
-  @extend section.box
-  background: $nearWhite
-  height: $projectHeight
-  margin-bottom: 0px
-  overflow: hidden
-  position: relative
+.projects-container
+  +clearfix()
+  +block(100%, auto)
+  max-width: 600px
+  margin: 0 auto
+  padding-top: 2em
+  clear: both
 
-  img.thumb
-    height: $projectHeight
-    float: left
+.project
+  +block(100%, auto)
+  float: left
+  background: $lightGrey
+  margin-bottom: 4%
+  text-align: center
+  padding-bottom: 1.5em
+  +transition(box-shadow 0.2s)
 
-  h1
-    float: left
-    font-family: $sans
-    font-weight: $light
-    color: $red
-    +font(14,19)
-    width: 42%
-    margin: 10px 0px 0px 15px
+  &:hover
+    @extend %shadow
 
-  span.languages
-    float: left
-    width: 42%
-    margin-left: 15px
-    font-family: $sans
-    +font(10,14)
+.project__image
+  width: 100%
+  margin-bottom: 1em
 
-  a.arrow_link
-    position: absolute
-    top: 10px
-    right: 30px
-    background: white
-    &:hover
-      top: 14px
+.project__title
+  font-family: $sans
+  font-weight: $light
+  color: $red
+  +font(18,24)
 
-  // stripes list styles
-  &:nth-child(even)
-    background: $lightGrey
-    img.thumb
-      margin-left: -15px
+.project__link
+  position: absolute
+  top: 10px
+  right: 30px
+  background: white
+  &:hover
+    top: 14px
+
+.project__meta
+  display: inline-block
+  font-family: $sans
+  font-weight: $light
+  color: $darkGrey
+  +font(12,19)
+  max-width: 60%
+
+
++mq(m)
+  .project
+    +block(49%, auto)
+    margin-right: 2%
+
+  .project:nth-child(2n)
+    margin-right: 0

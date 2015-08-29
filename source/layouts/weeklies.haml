@@ -4,11 +4,11 @@
   %body
     = partial "/partials/_header"
 
-    %section.weeklies-container
+    %section.projects-container
       - data.weeklies.each do |proj|
-        %a.weekly{href: proj.url, target: "_blank"}
-          = image_tag "weeklies/"+proj.image, class: "weekly__image"
-          %h1.weekly__title= proj.title
-          %span.weekly__date= proj.date
+        %a.project{href: proj.url, target: "_blank"}
+          = image_tag "weeklies/"+proj.image, class: "project__image"
+          %h1.project__title= proj.title
+          %span.project__meta= proj.date
 
     = partial "/partials/_footer"

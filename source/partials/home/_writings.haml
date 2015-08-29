@@ -4,19 +4,14 @@
     %div
       -# Lists out the 3 most recent blog excerpts
       - blog.articles.select {|a| a.data[:public] }[0..3].each do |article|
-        %article.excerpt
+        %article.blog-post-preview
           %a{href: article.url}
             %h1.title
               = article.title
               %time= article.date.strftime('%b %e, %Y')
           %p= article.data.excerpt
-          %a.arrow_link{href: article.url}
-            :plain
-              <svg>
-                <polyline fill="none" stroke="#D65B5B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-                10.417,1.5 17.284,9.429 10.417,17.359 	"/>
-                <line fill="none" stroke="#D65B5B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="17.284" y1="9.429" x2="1.5" y2="9.429"/>
-                <image xlink:href="#{image_path('icons/red_arrow.gif')}" src="#{image_path('icons/red_arrow.gif')}" />
-              </svg>
+          %a{href: article.url}
+            .blog-post-preview__image{style: "background-image:url(/blog/#{article.data.cover_img});"}
+
     .clear
   = link_to 'Blog Roll &raquo;', '/blog.html', :relative => true, :class => "box_link center"
