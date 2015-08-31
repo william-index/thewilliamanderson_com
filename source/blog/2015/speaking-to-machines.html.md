@@ -36,7 +36,7 @@ Hexadecimal: 4096 256 16 1
 Decimal    : 1000 100 10 1
 ```
 
-So <code>11</code> actually has the value of 3 in binary and 17 in Hexadecimal.
+So "<code>11</code>" (pronounced here "one one") actually has the decimal values of 3 and 17, when converted from binary and hexadecimal respectively.
 
 ### Maximum Values
 
