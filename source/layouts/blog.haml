@@ -6,7 +6,7 @@
 
     %section#writings
       %section.box#RecentPosts
-        %h1.huge Blog Roll
+        %h1.primary-title Blog Roll
         %div
           -# Lists out the 3 most recent blog excerpts
           - blog.articles.select {|a| a.data[:public] }.each do |article|

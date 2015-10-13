@@ -34,34 +34,35 @@ section.box
 
 // Arrow Link Buttons
 $depth: 4px
-a.box_link
-  +block(37px, 30px)
-  float: left
-  border: solid $darkGrey
-  border-width: 2px 2px $depth+2 2px
-  position: relative
+.box_link
+  +block(auto, auto)
+  box-sizing: border-box
+  padding: 1em
+  margin-bottom: 1em
+  float: right
+  clear: both
+  text-align: right
   font-family: $sans
   color: $red
+  border: 0 solid red
+  +transition(all, 0.2s)
+  background: rgba(0,0,0,.1)
   &:hover
-    border-bottom-width: 2px
-    cursor: pointer
-  &.center
-    display: inline-block
-    padding: 0px 15px
-    margin: 10px auto
-    +font(14,30)
-    float: none
-    width: auto
-    clear: both
-    &:hover
-      margin-top: 14px
-
-a.arrow_link
-  @extend a.box_link
-  svg
-    +block(100%,100%)
-    margin-top: 5px
-    margin-left: 9px
+    padding-right: 5px
+    border-left: 5px solid $red
+  // &:hover
+  //   border-bottom-width: 2px
+  //   cursor: pointer
+  // &.center
+  //   display: inline-block
+  //   padding: 0px 15px
+  //   margin: 10px auto
+  //   +font(14,30)
+  //   float: none
+  //   width: auto
+  //   clear: both
+  //   &:hover
+  //     margin-top: 14px
 
 // Section header styling
 h1.band
@@ -71,15 +72,16 @@ h1.band
   color: $red
   background: $nearWhite
   letter-spacing: 1px
+  font-size: 1em
 
-h1.huge
+.primary-title
   @extend %content_block
   font-weight: $light
   text-transform: uppercase
   color: $red
   background: $nearWhite
   letter-spacing: 1px
-  +font(20,24)
+  +font(28,34)
   text-align: center
   background: none
 

@@ -8,6 +8,11 @@
   image: weamon.jpg
   url: https://itunes.apple.com/us/app/weamon/id673727265?mt=8
 
+- title: "Bat Cannon"
+  languages: "Swift 2 (UIKit)"
+  image: batcannon.gif
+  url: https://itunes.apple.com/us/app/bat-cannon/id1044096597?mt=8
+
 - title: "Pettrip"
   languages: "Objective-C"
   image: pettrip.jpg

@@ -20,7 +20,7 @@
       - (1..3).each do |i|
         .div
   %nav.mainNav{class: current_page.data.layout}
-    - ["Recent Posts", "Personal Projects", "About William", "Activity"].each do |sect|
+    - ["Personal Projects", "Recent Posts", "Micro-projects", "About William", "Activity"].each do |sect|
       - root = "/"
       - if current_page.data.layout == "home"
         -root = ""

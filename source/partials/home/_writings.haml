@@ -1,6 +1,6 @@
 %section#writings
   %section.box#RecentPosts
-    %h1.huge Recent posts
+    %h1.primary-title Recent posts
     %div
       -# Lists out the 3 most recent blog excerpts
       - blog.articles.select {|a| a.data[:public] }[0..3].each do |article|
@@ -13,5 +13,5 @@
           %a{href: article.url}
             .blog-post-preview__image{style: "background-image:url(/blog/#{article.data.cover_img});"}
 
+    = link_to 'See All Blog Posts &raquo;', '/blog.html', :relative => true, :class => "box_link center"
     .clear
-  = link_to 'Blog Roll &raquo;', '/blog.html', :relative => true, :class => "box_link center"

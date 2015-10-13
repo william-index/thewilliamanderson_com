@@ -3,10 +3,12 @@
   = partial "/partials/_head"
   %body
     = partial "/partials/_header"
-    = partial "/partials/home/_writings"
-    = partial "/partials/home/_projects"
 
-    %h1.huge Recent Micro Projects
+    = partial "/partials/home/_projects"
+    = partial "/partials/home/_writings"
+
+    %h1.primary-title#Micro-projects Recent Micro Projects
+
     %section.projects-container
       - data.weeklies.each do |proj|
         - if proj.home
@@ -14,7 +16,7 @@
             = image_tag "weeklies/"+proj.image, class: "project__image"
             %h1.project__title= proj.title
             %span.project__meta= proj.date
-      = link_to 'Weekly Projects &raquo;', '/weeklies.html', :relative => true, :class => "box_link center"
+      = link_to 'See All Micro-projects &raquo;', '/weeklies.html', :relative => true, :class => "box_link center"
 
     = partial "/partials/home/_aboutWilliam"
     = partial "/partials/home/_activity"
