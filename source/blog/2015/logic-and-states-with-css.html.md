@@ -1,6 +1,6 @@
 ---
 title: Logic and State Management with just CSS
-subtitle: Building interfaces that involve logic with jsut CSS.
+subtitle: Building interfaces that involve logic with just CSS.
 date: 2015/10/17
 excerpt: With a bit of planning and wizardry hover states and forms can handle basic logic in css. This tutorial explores some effective ways of harnessing that power and some aspirational examples.
 cover_img: 2015/images/css_logic/cover.png
@@ -8,7 +8,7 @@ public: true
 ---
 <img src="/blog/2015/images/css_logic/banner.png" class="full" />
 
-## Why use logical css instead of just JavaScript?
+## Why use logical CSS instead of just JavaScript?
 CSS has come a long way, and finally older browsers are starting to fade. In many instances JavaScript, when written well, has performance benefits in animation as well as other areas that far outweigh CSS's convenience.
 
 Limited languages however such as CSS or older platforms such as the NES with 6502 Assembly, inspire inspiration through constraints. It could also be argued that CSS only solutions to problems that would typically be solved with JS offer fallbacks in case JS fails to load, crashes from an error, or is disabled. Mostly I side with the former and think its fun to find solutions within constraints.
