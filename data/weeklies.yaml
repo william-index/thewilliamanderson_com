@@ -1,3 +1,15 @@
+- title: "90s Space Suit - Therapy - Single"
+  image: nintiesspacesuit.jpg
+  date: 10/24/2015
+  url: https://hipponautic.bandcamp.com/album/90s-space-suit
+  home: true
+
+- title: "Blogpost: Logic and State Management with just CSS"
+  image: css_logic.jpg
+  date: 10/17/2015
+  url: http://williamanderson.io/blog/logic-and-states-with-css.html
+  home: false
+
 - title: "CSS-only Calculator"
   image: halfbyteadder.gif
   date: 10/10/2015
@@ -14,7 +26,7 @@
   image: html2audio.jpg
   date: 09/06/2015
   url: http://codepen.io/william-index/full/jbEpeK/
-  home: true
+  home: false
 
 - title: "Speaking to Machines"
   image: machinecode.jpg

@@ -32,9 +32,13 @@ section#writings
     padding: 5px 20px
     text-transform: none
     letter-spacing: 0px
-    +font(16,17)
+    +font(22,28)
     time
-      +font(12,17)
+      +font(12,12)
+      display: block
+      float: left
+      width: 100%
+      padding-top: 6px
       color: $darkGrey2
   p
     @extend %content_block
@@ -42,6 +46,8 @@ section#writings
     clear: both
     padding: 0px 20px
     max-width: 100%
+    +font(14,19)
+    color: $darkGrey
   a h1
     color: $red
     &:hover
