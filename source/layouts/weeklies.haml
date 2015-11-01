@@ -3,12 +3,13 @@
   = partial "/partials/_head"
   %body
     = partial "/partials/_header"
-
-    %section.projects-container
-      - data.weeklies.each do |proj|
-        %a.project{href: proj.url, target: "_blank"}
-          = image_tag "weeklies/"+proj.image, class: "project__image"
-          %h1.project__title= proj.title
-          %span.project__meta= proj.date
+    .weeklies_roll
+      %h1.primary-title#Micro-projects Weekly Micro Projects
+      %section.projects-container
+        - data.weeklies.each do |proj|
+          %a.project{href: proj.url, target: "_blank"}
+            = image_tag "weeklies/"+proj.image, class: "project__image"
+            %h1.project__title= proj.title
+            %span.project__meta= proj.date
 
     = partial "/partials/_footer"
