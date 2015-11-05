@@ -1,67 +1,81 @@
 - title: "Halloween Pens 2015"
   image: halloweenpens2015.jpg
   date: 10/31/2015
+  machine_date: 2015/10/31
   url: http://codepen.io/collection/DxKkkg/
+  summary: Just some quick CSS doodles on halloween.
   home: false
 
 - title: "90s Space Suit - Therapy - Single"
   image: nintiesspacesuit.jpg
   date: 10/24/2015
+  machine_date: 2015/10/24
   url: https://hipponautic.bandcamp.com/album/90s-space-suit
+  summary: My first try ever at music. Made with garageband and samples from a 1980s self-hypnosis video.
   home: true
 
 - title: "Blogpost: Logic and State Management with just CSS"
   image: css_logic.jpg
   date: 10/17/2015
+  machine_date: 2015/10/17
   url: http://williamanderson.io/blog/logic-and-states-with-css.html
   home: false
 
 - title: "CSS-only Calculator"
   image: halfbyteadder.gif
   date: 10/10/2015
+  machine_date: 2015/10/10
   url: http://codepen.io/william-index/pen/jbwggX
   home: true
 
 - title: "Qorxon: Cruise Control"
   image: qorxon.jpg
   date: 10/04/2015
+  machine_date: 2015/10/04
   url: http://codepen.io/william-index/pen/qOrXON/
   home: true
 
 - title: "HTML to Audio Converter"
   image: html2audio.jpg
   date: 09/06/2015
+  machine_date: 2015/09/06
   url: http://codepen.io/william-index/full/jbEpeK/
   home: false
 
 - title: "Speaking to Machines"
   image: machinecode.jpg
   date: 08/28/2015
+  machine_date: 2015/08/28
   url: http://williamanderson.io/blog/speaking-to-machines.html
 
 - title: "CSS-only Connect 4"
   image: connect4.png
   date: 08/22/2015
+  machine_date: 2015/08/22
   url: http://codepen.io/william-index/full/waLLzY/
   home: true
 
 - title: "Callie Splatoon Fanart"
   image: callie_splatoon.png
   date: 08/15/2015
+  machine_date: 2015/08/15
   url: http://thewa.tumblr.com/post/126718721058/callie-from-splatoon
 
 - title: "CSS Stepped 8bit Animation"
   image: 8bit_frames.png
   date: 07/24/2015
+  machine_date: 2015/07/24
   url: http://codepen.io/william-index/full/QbZvoQ/
 
 - title: "Paper Mache Daruma"
   image: paperdaruma.jpg
   date: 07/19/2015
+  machine_date: 2015/07/19
   url: https://twitter.com/TheWAAnderson/status/622907853507051520
 
 - title: "CSS Daruma"
   image: cssdaruma.png
   date: 07/19/2015
+  machine_date: 2015/07/19
   url: http://codepen.io/william-index/pen/pJZpgN
   home: true
