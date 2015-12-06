@@ -1,9 +1,15 @@
 events:
   - title: Interactive Web Design
     date: Fall 2015
-    type: Studio Couse/ Lecturs
+    type: Studio Couse/ Lecture
     location: The New School
     description: AAS class on web design, UX/UI, and methodologies/process.
+
+  - title: CSS with BEM
+    date: September 2015
+    type: Talk
+    location: Huge Inc.
+    description: A talk about organizing, scaling, and writing clean semantic, maintaible CSS.
 
   - title: Embrace the Medium
     date: Nov 2014

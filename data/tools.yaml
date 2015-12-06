@@ -1,11 +1,11 @@
 - category: Everyday Languages
-  contents: Sass, haml, CoffeeScript, JavaScript, PHP, Swift
+  contents: Sass, haml, Jinja2, JavaScript, Swift 2
 
 - category: Everyday Tools & Methodologies
-  contents: Middleman, Github, Bourbon, Neat, jQuery, Kanban, Wordpress, BEM, Atomic Design
+  contents: Gulp, Google Closure, Middleman, Git, Bourbon, Neat, Kanban, Scrum, BEM
 
 - category: Some Experience
-  contents: Ruby, Angular.js, Grunt, MySQL
+  contents: Python, Ruby, Angular.js, MySQL
 
 - category: Misc+/Past Experience
-  contents: Raphael.js, Pascal, 6502 Assembly, Actionscript 3, Objective-C
+  contents: PHP, Raphael.js, jQuery, CoffeeScript, Pascal, 6502 Assembly, Wordpress, Actionscript 3, Objective-C
