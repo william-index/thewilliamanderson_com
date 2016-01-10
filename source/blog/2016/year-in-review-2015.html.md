@@ -1,81 +1,189 @@
 ---
 title: William Anderson. Year in review 2015.
-subtitle: A look back to 2015 and a look forward to 2016.
+subtitle: Looking back at what I did and learned in 2015.
 date: 2016/01/10
-excerpt: lorem.
-cover_img: 2015/images/css_logic/cover.png
+excerpt: 2015 was definitely one of the most productive years of my life. I learned a lot of lessons, switched jobs, and started teaching. Here are some facts and learnings.
+cover_img: 2016/images/yir2015/cover.gif
 public: true
 ---
 
 ## Overview
 
-2015 was potentially the best if not, the most productive year of my life. While the first quarter may have been the least productived/ most dismal. Leaving my previous employer, taking time to explore my own career, setting attainable goals and planning my own self improvement after that made the last 3 quarters far out-wiegh the first.
+2015 was, by a wide margin, the **most productive year of my life**. I will remember it as the year I decided to step up, find the gaps in myself and be active in changing them (professionally, emotionally, and really in all regards). After quitting my high-stress/low-reward job at the end of the first quarter, I took time to find the right place for me to land, explored the market, and set clear goals for how I wanted to improve myself professionally.
 
-### 2015: The Numbers
-- Reading **26 books**!
-- Completing **14 Micro Projects**.
-- Completing **2 large personal projects**.
-- 22 pens
-- Spending 4 days in Tokyo.
-- 4 days in veitnam.
-- 5 days in Disney World.
-- 6 days in Taiwan
+I did lots of things and learned lots of lessons, and I wanted to take the time to highlight some of them here, hopefully in a quick/digestible format.
 
-### Memorable Events.
-- Participating in Beer Club at Huge Inc.
-- Thanksgiving with my step sister and her 2 kids.
-- Presenting at Codepen Meetups
+# In 2015, I ...
 
-### Started
-- Starting my current job as at **Huge Inc**.
-- Landing a gig as a part-time **lecturer at The New School**.
-- Starting to do weekly "micro projects."
+<section class="numerical-facts">
+  <a href="https://www.goodreads.com/user_challenges/2680536" target="\_blank" class="numerical-fact--link">
+    <figure class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Read</span>
+      <span class="numerical-fact__content--large">26</span>
+      <span class="numerical-fact__content">books</span>
+    </figure>
+  </a>
+  <a href="http://codepen.io/collection/AEPaQE/" target="\_blank" class="numerical-fact--link">
+    <figure class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Made</span>
+      <span class="numerical-fact__content--large">22</span>
+      <span class="numerical-fact__content">pens on Codepen</span>
+    </figure>
+  </a>
+  <figure class="numerical-fact">
+    <div class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Interviewed with</span>
+      <span class="numerical-fact__content--large">19</span>
+      <span class="numerical-fact__content">companies</span>
+    </div>
+  </figure>
+  <a href="http://williamanderson.io/weeklies.html" target="\_blank" class="numerical-fact--link">
+    <figure class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Completed</span>
+      <span class="numerical-fact__content--large">14</span>
+      <span class="numerical-fact__content">Micro Projects</span>
+    </figure>
+  </a>
+  <a href="http://williamanderson.io/blog.html" target="\_blank" class="numerical-fact--link">
+    <figure class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Wrote</span>
+      <span class="numerical-fact__content--large">6</span>
+      <span class="numerical-fact__content">blog posts</span>
+    </figure>
+  </a>
+  <figure class="numerical-fact">
+    <div class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Scrambled for</span>
+      <span class="numerical-fact__content--large">6</span>
+      <span class="numerical-fact__content">days in Taiwan</span>
+    </div>
+  </figure>
+  <figure class="numerical-fact">
+    <div class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Experienced magic for</span>
+      <span class="numerical-fact__content--large">5</span>
+      <span class="numerical-fact__content">days at Disney</span>
+    </div>
+  </figure>
+  <figure class="numerical-fact">
+    <div class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Shopped for</span>
+      <span class="numerical-fact__content--large">4</span>
+      <span class="numerical-fact__content">days in Tokyo</span>
+    </div>
+  </figure>
+  <figure class="numerical-fact">
+    <div class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Enjoyed</span>
+      <span class="numerical-fact__content--large">4</span>
+      <span class="numerical-fact__content">days touring Vietnam</span>
+    </div>
+  </figure>
+  <figure class="numerical-fact">
+    <div class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Gave</span>
+      <span class="numerical-fact__content--large">2</span>
+      <span class="numerical-fact__content">talks</span>
+    </div>
+  </figure>
+  <figure class="numerical-fact">
+    <div class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Taught</span>
+      <span class="numerical-fact__content--large">1</span>
+      <span class="numerical-fact__content">course</span>
+    </div>
+  </figure>
+  <a href="https://itunes.apple.com/us/app/bat-cannon/id1044096597?mt=8" target="\_blank" class="numerical-fact--link">
+    <figure class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Crafted</span>
+      <span class="numerical-fact__content--large">1</span>
+      <span class="numerical-fact__content">iOS game</span>
+    </figure>
+  </a>
+  <a href="http://william-index.github.io/placemat/index.html" target="\_blank" class="numerical-fact--link">
+    <figure class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Invented</span>
+      <span class="numerical-fact__content--large">1</span>
+      <span class="numerical-fact__content">preprocessor language</span>
+    </figure>
+  </a>
+  <figure class="numerical-fact">
+    <div class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Quit</span>
+      <span class="numerical-fact__content--large">1</span>
+      <span class="numerical-fact__content">job</span>
+    </div>
+  </figure>
+  <figure class="numerical-fact">
+    <div class="numerical-fact__wrap">
+      <span class="numerical-fact__content">Started</span>
+      <span class="numerical-fact__content--large">1</span>
+      <span class="numerical-fact__content">job</span>
+    </div>
+  </figure>
+</section>
 
-### Stopped.
-- Leaving my high stress long-hours job.
+## Memorable Events.
+While each on of these really deserves its own blog post, there were some really key memorable events from 2015. For the sake of brevity I'm listing them below, not in any particular order.
 
-### Endured.
-- My mother spent quite a bit of time in the hospital.
-- 3 months interviewing with 15 companies.
+- Participating in **Beer Club** at Huge Inc.
+- Having **Thanksgiving** with my step sister and her 2 kids.
+- Presenting at Codepen **Meetups**.
+- Having a family reunion (wife's side) in **Taiwan**.
+- Seeing **Giant Claw** perform live.
+- Visiting my father-in-law's company in **Vietnam**.
+- Starting as a web engineer at **Huge Inc**.
+- Teaching my first course (on Web Design) as a **lecturer at The New School**.
+- Visiting a **Japanese Shrine** to end the year and ring in 2016.
 
-### Setting my 2015 goals.
+## I Discovered.
+I discovered some cool things that I really like as well throughout this year.
 
-I think the real start of my 2016 success was the launch of the redesign of my personal site. Even now it is still pretty bare-bones but I had one key goal for it, and in that regard it succeeded.
+- I really dig experimental music.
+- Wearing makeup super boosts my self-confidence.
+- Vaporwave is a visual aesthetic and I love it!
 
-> By displaying the empty spaces in what I did/what I could do, I was greatly motivated to fill in those blanks.
+## Learned Lessons.
+Naturally as I continue to grow I learn things and come across lessons, some worth sharing, here are a few key ones.
 
-My key objective for building out this site was to have sections for what I wanted to say about myself as opposed to what was currently true. My plan wasn't to lie to fill in the blanks, but rather to leave them blank, highlighting the literal gaps in who I wanted to be professionally. This was a bit of a gamble as one outcome could've just been an empty website. Thankfully though I started to fill them in.
+### Be uncomfortable.
+Open your heart to the plights and struggles of others. I don't mean to show sympathy or pity, but to practice developing empathy. Learn to understand that society is complex and that everyone has battles, struggles, and injustices. Many, you may never be able to relate to or understand, but even so you can learn to feel for them, and to be there for people. Everything is relative to an individual and things impact everyone in different ways.
 
-### The Dangers of self-evaluation.
+This is the hardest lesson to articulate, and it wasn't a revelation for me in 2015. Rather it has been a life of learning. Learning to feel (genuinly) for others, even strangers, is really beautiful, and you will find that it changes you. It makes you a better listener, sure, but it also lets you explore parts of yourself that may have been suppressed by society, or sub-consciously pushed away.
 
-These blanks in experience and accomplishments though were not quite goal setting, but rather self-evaluation. There was a lot I wanted to be doing that I wasn't doing. This can be a bit depressing. Around February when I had figured most of it out, I realized there was no way for me to do what I wanted to do from where I was.
+It also hopefully eventually lets you help others. Help by just being there for them when needed, or in a more active role/meaning.
 
-> So I quit.
+Sometimes this can be incredibly uncomfortable. You learn that things are genuinely awful for a lot of people, even people close to you, and thats a tough feeling. This is the good discomfort that I mean, the discomfort that opens you to humanity and makes you a better person.
 
-My previous job did not afford time for me to work on projects outside of work (and if I had the time, I was too exhausted), and this lack of time extended towards other areas as well, such as finding ways to share my knowledge, participate in meetup groups and more. I wanted to step up my life and figure out more of who i was and where I wanted to be. So I quit. This made April the real start of the year for me as I began to explore where I could take things and what I wanted to do.
+### Stay Busy, get busier.
 
+I feel like I did and made a lot of things in 2015, and that the more I do the easier it gets to do even more. Its like a snowball or avalanche or something. The more momentum I have the more and the faster I get things done.
 
+I find oddly enough as well that I still have plenty of time for social activities, video games, anime, and all manner of things. There is a lot of time in a day/week, and I feel the more I use the more I learn to use it well! The major things I did a lot of were Micro Projects, personal projects, and reading, I wont talk to much about reading, but it takes time. I do want to talk a bit about projects though, as thats really what kept me busy.
 
-## Leaving Addison Design Co.
+> I decided that my weekly projects could be anything from baking cinnamon rolls to writing blog posts, to composing music or making software.
 
-## Seeing the world of Start-ups.
+2015 was the year I started doing micro-projects. I watched <a href="https://www.youtube.com/watch?v=l_F9jxsfGCw" target="\_blank">this talk by TinySubversions</a> and it really set something off. I decided to try to do a project of some sort every week. I decided that my weekly projects could be anything from baking cinnamon rolls to writing blog posts, to composing music or making software. They just couldn't live for more than a weekend.
 
-## Joining Huge.
+Sometimes if I wanted I could even do more than one. Now I am starting to call them "Micro Projects" for myself instead. It has been rewarding.
 
-## Personal Projects
+I only completed 2 really notably sized projects in 2015, and started a 3rd (that I'm counting towards by 2016 goal of 3). These don't count as the weekly micro-projects, and I set a rule for myself that I cant just use that time to work on them. If its possible to break parts out into Micro Projects (like composing a song for a game), thats fine, otherwise I need to find more time to work on it.
 
-## Projects
+This has been great for adding complexity and weight to my personal time management, as with 2 project tracks going on (outside of the ones at my actual job), I still need to find family-time/etc. and time to relax. Releasing larger projects to the world always feels great, but there is risk with it and I tend to feel pretty sad about imperfections.
 
-### Micro projects
+### Tech is just a tool.
 
-### Larger works
+As I mature as a software engineer/web dev/ designer/ whatever, I find that I am less and less enchanted by specific technologies and more and more taken by the joy of creation. This ties into the rules I set for my Micro Projects, but what I truly enjoy the most is making things. Technologies come and go (quickly) but the processes of making things is something that changes and evolves rather than being constantly replaced.
 
-## Job Changes
+Javascript frameworks, new trendy languages, preprocessors/etc are all just a means to create something that is either enjoyable, has meaning, or has business value. I suspect as I continue to grow in my career this feeling with solidify and perhaps I'll move further away from the implementation side of tech.
 
-## Interviews
+## Looking Forward towards 2016.
+In 2015 I created this website and made a bunch of blank sections that I hoped to fill with accomplishments and works. I was lucky enough to have succeeded and will probably write a post about that specifically sometime soon. It was a great way to push me towards doing things (or have a website barren of content).
 
-## Books
+In 2016 I have a lot I want to do as well. Even more than 2015. Ill be tracking it as a <a href='https://github.com/william-index/thewilliamanderson_com/milestones/2016' target='\_blank'>milestone on the github for this website</a>, and I would love if you checked it out!
 
-## Travel
+<img src="/blog/2016/images/yir2015/milestone2016.png" />
 
-## Meetups
+The short of it is to make more projects, read more books, learn Mandarin, take some online courses, start a Meetup group and more. There are a few hidden goals as well that I'm not ready to share yet, but may pop in there later this year as well.
+
+I'm looking forward to spending 2016 with you all.

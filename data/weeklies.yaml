@@ -1,3 +1,19 @@
+- title: "2015 Year in Review"
+  image: yir2015.png
+  date: 01/10/2016
+  machine_date: 2016/01/10
+  url: http://williamanderson.io/blog/year-in-review-2015.html
+  summary: My look back at what I did during 2015.
+  home: false
+
+- title: "Sass Maze Algorithms 2"
+  image: mazealgos2.jpg
+  date: 12/12/2015
+  machine_date: 2015/12/12
+  url: http://codepen.io/william-index/pen/qbONZE
+  summary: A radial maze generated with Sass and css only.
+  home: false
+
 - title: "Sass Maze Algorithms"
   image: mazealgos.jpg
   date: 12/06/2015

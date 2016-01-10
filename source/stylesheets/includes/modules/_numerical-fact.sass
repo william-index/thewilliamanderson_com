@@ -1,0 +1,60 @@
+.numerical-facts
+  +display(flex)
+  +flex-wrap(wrap)
+  width: 100%
+  max-width: 1200px
+  margin: 0 auto
+  justify-content: center
+
+.numerical-fact
+  +block(100%, auto)
+  background: $lightGrey
+  text-align: center
+  +transition(box-shadow 0.2s)
+  box-sizing: border-box
+  padding: 1rem 1rem
+  font-size: 1.5rem
+
+@for $i from 1 through 25
+  $color: hsl(220 + ($i * 10), 100%, 50%)
+  .numerical-fact:nth-child(#{$i})
+    background: lighten($color, 20%)
+    color: darken($color, 30%)
+
++mq(m)
+  .numerical-fact
+    flex: 0 0 33.333%
+    height: 30vw
+    max-height: 400px
+    border: .25em solid white
+    padding: 0
+    font-size: 1rem
+
+  .numerical-fact__wrap
+    +clearfix()
+    +transform(translateY(-50%))
+    position: relative
+    top: 50%
+
+  .numerical-fact__content,
+  .numerical-fact__content--large
+    display: block
+    float: left
+    width: 100%
+    padding: 0
+
+  .numerical-fact__content--large
+    font-size: 6rem
+
++mq(l)
+  .numerical-fact
+    flex: 0 0 25%
+    height: 25vw
+    max-height: 300px
+    font-size: 1.5rem
+
+.numerical-fact--link
+  @extend .numerical-fact
+
+  &:hover
+    background-color: $lightGrey

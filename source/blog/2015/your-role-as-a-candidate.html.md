@@ -7,9 +7,9 @@ cover_img: 2015/images/roleascandidate/cover.gif
 public: true
 ---
 
+## Preamble
 > It is the candidates responsibility to find the right job, more-so than it is the company's responsibility to find the right candidate.
 
-## Preamble
 Recently I had the privilege of undergoing a successful job search without the overhead of working full time in the background. This let me take time to really explore opportunities and take the temperature of the job market. I met with 19 different companies across a ton of industries. Some I went pretty far into the process before calling it off, others only went as far as informationals, and naturally a couple (3) didn't see me as the right fit for the role.
 
 Along the way I learned a ton about process, the stacks used at different companies, variations in management, and the hiring philosophies. The totality of which would probably be better for long form writing (like a book).
