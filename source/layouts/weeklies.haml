@@ -4,7 +4,7 @@
   %body
     = partial "/partials/_header"
     .weeklies_roll
-      %h1.primary-title#Micro-projects Weekly Micro Projects
+      %h1.primary-title#Micro-projects Micro Projects
       %section.projects-container
         - data.weeklies.each do |proj|
           %a.project{href: proj.url, target: "_blank"}
