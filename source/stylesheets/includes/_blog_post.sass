@@ -83,12 +83,20 @@ article.blog_post
       padding: 20px 0px
       p
         font-size: 1.6em
-        line-height: 2.0em
+        line-height: 1.7em
         color: $red
+        position: relative
         &:before
           content: '“ '
         &:after
           content: ' ”'
+
+        span
+          display: block
+          position: absolute
+          right: 0
+          bottom: -1.8em
+          color: $darkGrey
 
   // "inline" styles
   strong

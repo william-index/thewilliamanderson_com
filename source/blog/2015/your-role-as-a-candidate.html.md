@@ -62,7 +62,7 @@ Its hard to really read another person, at any time really, but especially durin
 
 The value of an engineer, doesn't just come from code knowledge, or design pattern implementation, its about insights and ingenuity. Even if you are far more junior than them, you still may know some techniques or domains on a deeper level. Its important that you convey your knowledge, but also that you do so without necessarily teaching them how to do it.
 
-If you feel that you have entered some form of "instructor mode" where you have begun teaching new skills to your interviewer, feel free to cut yourself off. Just by entering this dynamic, you have already shown you are a solid candidate, anything more should require compensation. Some companies (some REALLY big ones that I interviewed with) will quite intentionally use interviews for this. It is cost effective and a good way for them to stay relevent, they often don't realize or care that its malicious and predatory.
+If you feel that you have entered some form of "instructor mode" where you have begun teaching new skills to your interviewer, feel free to cut yourself off. Just by entering this dynamic, you have already shown you are a solid candidate, anything more should require compensation. Some companies (some REALLY big ones that I interviewed with) will quite intentionally use interviews for this. It is cost effective and a good way for them to stay relevant, they often don't realize or care that its malicious and predatory.
 
 ## Taking Advantage
 What I'm about to say is a bit cruel, and I hate myself a bit for it, but since companies will undoubtably be taking advantage of you, feel free to do the same.
@@ -82,7 +82,7 @@ When you are given a code test, either in the form of a take home assignment, wh
 
 - Evaluate if the position is what you thought it was.
 
-<span class="fade">Naturally feel free to add more to this list, but those are my two broadest and more key recommendations.</fade>
+<span class="fade">Naturally feel free to add more to this list, but those are my two broadest and more key recommendations.</span>
 
 ### Considering the Format
 Tests and their formats can say a lot of things about the people giving them. If I am asked to live code during an interview, I know there is a good chance that this isn't the job for me. Interviews come with a tremendous amount of pressure on a whole lot of levels, and engineering is pretty intense work. When you are asked to code something in a strange location, with an unknown person evaluating your every move, it intensifies everything. The pressure here isn't an accurate reconstruction of the work environment, and will most likely only let certain personality types get through. This filter, notably isn't about ability, it tends to be about how these people act. Naturally, I've had good experiences having to live code as well, but only when it was done comfortably, collaborative, and with a domain I was well versed in.
