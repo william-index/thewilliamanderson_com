@@ -3,8 +3,8 @@ title: Microservices All the Way Down.
 subtitle: Exploring the relationship between nature and the architectures we invent.
 date: 2016/02/15
 excerpt: The Microservices pattern is intensely popular right now in software development, but in other fields it always has been. In a way its even been around in software for longer than we think too.
-cover_img: 2016/images/yir2015/cover.gif
-public: false
+cover_img: 2016/images/microservices/cover.gif
+public: true
 ---
 
 ## The Omnipresent Microservices Pattern.
@@ -60,6 +60,10 @@ Aside from networking with the rail (a third party in this context), cars also c
 
 From an engineering point of view, these utilities are most definitely not microservices, as they are pretty wholly integrated into each individual car. But each car  could most definitely be considering its own unique application.
 
+
+<img src="/blog/2016/images/microservices/railway_services_architecture.png" alt="Railway Services Architecture Diagram"/>
+
+
 Each car's connectors to the one in from and behind it are the endpoints used within the system to link the services (cars) and to send signals to each other. The difference here being that while any car could talk to any car, we always have a single in and a single out. (If this isn't already a defined software pattern, I'll coin the term "*Railway Services Architecture*").
 
 > Railway Services Architecture: A microservice-like architecture in which each service only sends data to a single other service, and only requests data from another single different service.
@@ -71,6 +75,8 @@ The MTA not updating on a per car basis seems to be a wasted situation as the in
 ## The Human Interface.
 
 As we move more into the abstract, I would even argue that objects in our everyday life function in this way (you may need to start eating that salt with a spoon). As a human being, our 5 senses are essentially our endpoints though which we receive information. We are able to send information via other services such as speech or physical gestures (including hand movements used to write, type, sign, and so forth).
+
+<img src="/blog/2016/images/microservices/vitamin_architecture.png" alt="Diagram of architecture of human eating a vitamin." />
 
 Inadvertently crafted or manufactured objects also have similar relationships, in that to open a bottle I use the "api" (the cap) to access "stored data" (contents of the bottle). Which in the case of the bottle of vitamins I'm currently looking at, I then pass on to my mouth (another api), and process its data internally (my internal organs are like private methods or objects that the outside world doesn't have direct access to).
 
