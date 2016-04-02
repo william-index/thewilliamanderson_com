@@ -1,3 +1,11 @@
+- title: "Fantastic Real Estate Bot"
+  image: fantasticrealestate.png
+  date: 04/02/2016
+  machine_date: 2016/04/02
+  url: https://twitter.com/FantasyListings
+  summary: Python-based twitter bot that makes fake and fantastic real estate listings.
+  home: false
+
 - title: "CSS Dragon Radar"
   image: dragonradar.jpg
   date: 03/12/2016
