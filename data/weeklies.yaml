@@ -1,3 +1,11 @@
+- title: "Random Wizard Generator"
+  image: wizardgenerator.png
+  date: 04/09/2016
+  machine_date: 2016/04/09
+  url: https://twitter.com/wizardgenerator
+  summary: Python-based twitter bot that generates random wizard with color replacement as image patterns.
+  home: true
+
 - title: "Fantastic Real Estate Bot"
   image: fantasticrealestate.png
   date: 04/02/2016
@@ -141,7 +149,7 @@
   date: 08/22/2015
   machine_date: 2015/08/22
   url: http://codepen.io/william-index/full/waLLzY/
-  home: true
+  home: false
 
 - title: "Callie Splatoon Fanart"
   image: callie_splatoon.png
