@@ -1,3 +1,11 @@
+- title: "Wax, The Hippo - for Pico-8"
+  image: waxthehippo.png
+  date: 05/26/2016
+  machine_date: 2016/05/26
+  url: http://www.lexaloffle.com/bbs/?tid=3461
+  summary: 8-bit platformer written in Lua for Pico-8
+  home: true
+
 - title: "Random Wizard Generator"
   image: wizardgenerator.png
   date: 04/09/2016
@@ -108,7 +116,7 @@
   machine_date: 2015/10/24
   url: https://hipponautic.bandcamp.com/album/90s-space-suit
   summary: My first try ever at music. Made with garageband and samples from a 1980s self-hypnosis video.
-  home: true
+  home: false
 
 - title: "Blogpost: Logic and State Management with just CSS"
   image: css_logic.jpg
